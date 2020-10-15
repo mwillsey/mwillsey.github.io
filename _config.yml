@@ -1,0 +1,18 @@
+title: Max Willsey
+email: me@mwillsey.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Max Willsey's personal site.
+baseurl: ""
+url: "https://mwillsey.com"
+
+twitter_username: mwillsey
+github_username:  mwillsey
+
+permalink: /:categories/:title
+
+markdown: kramdown
+
+# collections:
+#   papers:
+#     permalink: /:collection/:name:output_ext
+#     output: true

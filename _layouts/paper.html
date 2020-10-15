@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1> {{ page.title | markdownify }} </h1>
+
+{% include paper.html paper=page title=false links=true %}
+
+{% if page.bib %}
+<details class="bibtex">
+    <summary>BibTeX</summary>
+    <code><pre>{{ page.bib }}</pre></code>
+</details>
+{% endif %}
+
+{{ content }}

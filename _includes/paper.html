@@ -1,0 +1,30 @@
+<{{ include.elem | default: 'div' }} class="paper">
+    {% if include.title %}
+        <h3 class="paper-title">
+            <a href="{{ include.paper.url }}"> {{ include.paper.title }} </a>
+        </h3>
+    {% endif %}
+    <ul class="paper-authors">
+        {% for person in include.paper.authors %}
+            <li>{% include person.html class="author" key=person %}</li>
+        {% endfor %}
+    </ul>
+    <div class="paper-venue">
+        {%- include link.html text=include.paper.venue url=include.paper.venue_url -%},
+        {{ include.paper.date | date: "%B %Y" }}
+    </div>
+    {% if include.links %}
+        <ul class="paper-links">
+            {% for link in include.paper.links %}
+                {% assign link_name = link[0] %}
+                {% assign link_url = link[1] %}
+                <li>{% include link.html text=link_name url=link_url %}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    {% if include.paper.note %}
+        <div class="paper-notes">
+            {{ include.paper.note | markdownify | remove: '<p>' | remove: '</p>' }}
+        </div>
+    {% endif %}
+</{{ include.elem | default: 'div' }}>

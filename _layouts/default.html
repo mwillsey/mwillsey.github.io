@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> {{ page.title | strip_html }} </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="Max Willsey, PhD Student at the University of Washington">
+    <meta property="og:title" content="Max Willsey" />
+    <meta property="og:description" content="Max Willsey, PhD Student at the University of Washington" />
+    <meta property="og:image" content="/assets/max.jpg" />
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+  <nav>
+    <div id="name">
+      <a href="/">Max Willsey</a>
+    </div>
+    <div id="links">
+      <a href="mailto:me@mwillsey.com">me@mwillsey.com</a>
+      <a href="/blog">Blog</a>
+      <a href="https://github.com/mwillsey">GitHub</a>
+      <a href="https://twitter.com/mwillsey">Twitter</a>
+      <a href="https://scholar.google.com/citations?user=zko9-RwAAAAJ&hl=en">Google Scholar</a>
+    </div>
+  </nav>
+  <main>
+      {{ content }}
+  </main>
+
+  <footer>
+    Site last updated on {{ site.time | date: "%Y-%m-%d" }}.
+    Edit me on <a href="https://github.com/mwillsey/mwillsey.com/">Github</a>.
+  </footer>
+
+  {% comment %}
+      if you visit #skipgc then this browser will skip being counted
+  {% endcomment %}
+  <script>
+        if (window.location.hash === '#skipgc')
+                localStorage.setItem('skipgc', 't');
+        if (localStorage.getItem('skipgc') === 't')
+                window.goatcounter = {no_onload: true};
+  </script>
+  <script data-goatcounter="https://mwillsey.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

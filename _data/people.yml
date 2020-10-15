@@ -1,0 +1,112 @@
+mwillsey:
+  name: "Max Willsey"
+
+rokhini:
+  name: "Rokhini Prabhu"
+
+fp:
+  name: "Frank Pfenning"
+  webpage: "https://www.cs.cmu.edu/~fp/"
+
+alvin:
+  name: "Alvin Cheung"
+  webpage: "https://people.eecs.berkeley.edu/~akcheung/"
+
+luis:
+  name: "Luis Ceze"
+  webpage: "https://homes.cs.washington.edu/~luisceze/"
+
+ras:
+  name: "Ras Bodik"
+  webpage: "https://homes.cs.washington.edu/~bodik/"
+
+vlee:
+  name: "Vincent Lee"
+  webpage: "https://homes.cs.washington.edu/~vlee2/"
+
+jroesch:
+  name: "Jared Roesch"
+  webpage: "http://jroesch.github.io"
+
+misl:
+  name: "Molecular Information Systems Lab"
+  webpage: "http://misl.cs.washington.edu"
+
+ashsteph:
+  name: "Ashley Stephenson"
+
+cnt:
+  name: "Chris Takahashi"
+
+pranav:
+  name: "Pranav Vaid"
+
+bichlien:
+  name: "Bichlien Nguyen"
+
+michalp:
+  name: "Michal Piszczek"
+
+cbetts:
+  name: "Christine Betts"
+  webpage: "https://christinebetts.com/"
+
+sharon:
+  name: "Sharon Newman"
+
+sarang:
+  name: "Sarang Joshi"
+
+karin:
+  name: "Karin Strauss"
+  webpage: "https://www.microsoft.com/en-us/research/people/kstrauss/"
+
+georg:
+  name: "Georg Seelig"
+  webpage: "https://homes.cs.washington.edu/~seelig/"
+
+dougcarmean:
+  name: "Douglas Carmean"
+  webpage: "https://www.microsoft.com/en-us/research/people/dcarmean/"
+
+kendall:
+  name: "Kendall Stewart"
+  webpage: "https://homes.cs.washington.edu/~kstwrt/"
+
+cnandi:
+  name: "Chandrakana Nandi"
+  webpage: "https://homes.cs.washington.edu/~cnandi/"
+
+djg:
+  name: "Dan Grossman"
+  webpage: "https://homes.cs.washington.edu/~djg/"
+
+jrw:
+  name: "James Wilcox"
+  webpage: "http://jamesrwilcox.com/"
+
+eva:
+  name: "Eva Darulova"
+  webpage: "https://people.mpi-sws.org/~eva/"
+
+adama:
+  name: "Adam Anderson"
+
+ztatlock:
+  name: "Zach Tatlock"
+  webpage: "https://ztatlock.net"
+
+pavel:
+  name: "Pavel Panchekha"
+  webpage: "https://pavpanchekha.com/"
+
+remy:
+  name: "Remy Wang"
+  webpage: "https://remy.wang/about/"
+
+oflatt:
+  name: "Oliver Flatt"
+  webpage: "https://www.oflatt.com/"
+
+mcbride:
+  name: "Jeff McBride"

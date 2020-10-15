@@ -1,0 +1,5 @@
+{%- if include.url -%}
+    <a href="{{- include.url -}}" {% if include.class %} class={{include.class}} {% endif %}>{{- include.text -}}</a>
+{%- else -%}
+    <span {% if include.class %} class={{include.class}} {% endif %}>{{- include.text -}}</span>
+{%- endif -%}

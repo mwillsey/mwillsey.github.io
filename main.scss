@@ -1,0 +1,189 @@
+---
+---
+
+$color1: #58A4B0;
+$color2: #7B3E19;
+
+$background: lighten($color1, 43%);
+$accent: lighten($color2, 0%);
+$dim: #666;
+
+$desktop-width: 1000px;
+
+$middle: 2;
+$right: 1;
+$total: $middle + $right;
+
+// middle as a percent of everything
+$middle-pct: $middle / $total * 100%;
+// right as a percentage of the rest
+$right-pct: $right / ($total - $right) * 100%;
+
+
+@media (min-width: $desktop-width) {
+    main {
+        clear: both;
+        max-width: $middle-pct;
+    }
+
+    .fullwidth {
+        display: block;
+        margin-left: 0;
+        margin-right: -$right-pct;
+    }
+
+    .right {
+        display: block;
+        float: right;
+        clear: right;
+        margin-right: -$right-pct;
+        width: $right-pct - 5%;
+        text-align: left;
+    }
+
+    nav {
+        #name { float: left; }
+        #links { float: right; }
+    }
+
+    .note {
+        margin-bottom: 1em;
+        input, .note-toggle { display: none }
+    }
+}
+
+@media (max-width: $desktop-width - 1) {
+    label.note {
+        color: $dim;
+        input, .note-content { display: none }
+        .note-toggle {
+            transition: 300ms ease all;
+            display: inline-block;
+        }
+        input:checked + .note-body {
+            .note-toggle { transform: rotate(45deg) }
+            .note-content { display: inline }
+        }
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1200px;
+    padding: 2em;
+    margin: auto;
+    color: #111;
+    background: $background;
+}
+
+nav {
+    text-align: center;
+    a { white-space: nowrap; }
+    margin-bottom: 2em;
+
+    #name {
+        font-size: 1.4rem;
+        a { text-decoration: none }
+        margin-bottom: 1em;
+    }
+
+    #links {
+        a + a { margin-left: 10px; }
+    }
+}
+
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    border-radius: 3px;
+    object-fit: scale-down;
+}
+
+code { font-size: 130% }
+
+a:link, a:visited { color: $accent }
+a:hover {color: lighten( $accent, 10% )}
+
+details.bibtex {
+    margin: 1em 0;
+    pre {
+        max-width: 500px;
+        overflow: scroll;
+    }
+}
+
+// cancel out code backgrounds
+pre { background-color: inherit !important };
+
+.author.me { font-weight: bold; }
+.paper-title { font-weight: normal; margin-bottom: 0; }
+
+ul.papers a:link:not(:hover) {
+    text-decoration: none;
+}
+
+#news {
+    // remove markdown paragraph spacing
+    p { display: inline; margin: 0 }
+
+    > ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        > li {
+            > ul {
+                padding-left: 40px;
+                margin-bottom: 1em;
+                list-style: disc;
+                > li {
+                    margin-top: 0.3em;
+                }
+            }
+        }
+    }
+}
+
+.inline-list {
+    display: inline;
+    padding: 0;
+    li {
+        display: inline;
+        list-style: none;
+    }
+}
+
+.comma-list {
+    @extend .inline-list;
+    li {
+        &:after { content: ", " }
+        &:last-child:after { content: "" }
+    }
+}
+
+.bracket-list {
+    @extend .inline-list;
+    li {
+        &:before { content: "[" }
+        &:after { content: "]" }
+    }
+}
+
+.paper-authors { @extend .comma-list }
+.paper-links { @extend .bracket-list }
+
+figure {
+    figcaption {
+        margin-top: 0.5em;
+    }
+}
+
+footer {
+    color: $dim;
+    font-size: 70%;
+}

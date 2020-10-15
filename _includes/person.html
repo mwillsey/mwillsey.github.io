@@ -1,0 +1,5 @@
+{% assign p = site.data.people[include.key] %}
+{%- capture class -%}
+  "person {{ include.class }} {%- if include.key == "mwillsey" %} me {%- endif -%}"
+{%- endcapture -%}
+{%- include link.html class=class text=p.name url=p.webpage %}
