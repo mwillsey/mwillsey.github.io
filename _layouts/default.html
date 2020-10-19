@@ -2,7 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title> {{ page.title | strip_html }} </title>
+    <title>
+        {% if page.shorttitle %}
+            mwillsey | {{ page.shorttitle | strip_html | downcase }}
+        {% elsif page.title %}
+            mwillsey | {{ page.title | strip_html | downcase }}
+        {% else %}
+            mwillsey
+        {% endif %}
+    </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
           content="Max Willsey, PhD Student at the University of Washington">

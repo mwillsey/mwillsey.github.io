@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Introduction to Rust
+shorttitle: Rust Intro
 ---
 
 

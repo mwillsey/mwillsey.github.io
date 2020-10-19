@@ -1,6 +1,7 @@
 ---
 layout: paper
 title: "Synthesizing Structured CAD Models with Equality Saturation and Inverse Transformations"
+shorttitle: pldi szalinski
 
 type: "publication"
 authors: ["cnandi", "mwillsey", "adama", "jrw", "eva", "djg", "ztatlock"]

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Max Willsey: Papers"
+title: "papers"
 ---
 
 # Papers

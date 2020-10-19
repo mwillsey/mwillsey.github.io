@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Max Willsey: Blog"
+title: "blog"
 ---
 
 # Blog Posts

@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Max Willsey
 ---
 
 <section markdown="1" id="intro">
