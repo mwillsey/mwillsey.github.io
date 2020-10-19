@@ -64,9 +64,12 @@ aside {
     background: darken($background, 5%);
     border: 1px solid darken($background, 10%);
     border-left: 10px solid darken($background, 10%);
-    padding: 3px;
-    padding-left: 10px;
+    padding: 10px;
     border-radius: 10px;
+
+    // cancel out the default p spacing
+    p:first-child { margin-top: 0px; }
+    p:last-child { margin-bottom: 0px; }
 }
 
 html {
@@ -112,11 +115,10 @@ pre {
 }
 
 code {
-    color: #555;
     font-family: "Inconsolata", "Menlo", "DejaVu Sans Mono", monospace;
 }
 
-a:link, a:visited { color: $accent }
+a:link, a:visited, a code { color: $accent }
 a:hover {color: lighten( $accent, 10% )}
 
 details.bibtex {
