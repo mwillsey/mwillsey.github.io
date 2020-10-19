@@ -3,7 +3,7 @@ layout: default
 title: "Max Willsey: Blog"
 ---
 
-# Papers
+# Blog Posts
 
 <ul class="blog-posts">
 {% for post in site.categories.blog %}
