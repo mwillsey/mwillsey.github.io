@@ -41,7 +41,8 @@ scalable and affordable.
 ## News
 
 - 2020 Oct
-  - Our [paper](/papers/egg) on `egg` will appear at [POPL 2021](https://popl21.sigplan.org/)!
+  - Our [paper](/papers/egg) on `egg` will appear at [POPL 2021](https://popl21.sigplan.org/)
+    as a "Distinguished Paper"!
 
 - 2020 Jun
   - I've been working on this e-graph library called [`egg`] for a while.
