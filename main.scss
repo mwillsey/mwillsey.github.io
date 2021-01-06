@@ -182,6 +182,7 @@ ul.papers a:link:not(:hover) {
 .paper-authors { @extend .comma-list }
 .paper-links { @extend .bracket-list }
 .paper-notes { font-style: italic; }
+li.paper.star { list-style-type: '★ ' }
 
 figure {
     figcaption {

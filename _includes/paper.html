@@ -1,4 +1,4 @@
-<{{ include.elem | default: 'div' }} class="paper">
+<{{ include.elem | default: 'div' }} class="paper {{ include.paper.class }}">
     {% if include.title %}
         <h3 class="paper-title">
             <a href="{{ include.paper.url }}"> {{ include.paper.title }} </a>

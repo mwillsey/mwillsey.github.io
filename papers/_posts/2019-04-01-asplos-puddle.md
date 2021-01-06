@@ -2,6 +2,7 @@
 layout: paper
 title: "Puddle: A Dynamic, Error-Correcting, Full-Stack Microfluidics Platform"
 authors: ["mwillsey", "ashsteph", "cnt", "pranav", "bichlien", "michalp", "cbetts", "sharon", "sarang", "karin", "luis"]
+class: star
 
 venue: "ASPLOS 2019"
 venue_url: "https://asplos-conference.org/"
