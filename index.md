@@ -9,19 +9,19 @@ layout: default
 I'm a fifth-year Ph.D. candidate at the University of Washington
 [Paul G. Allen School of Computer Science & Engineering][allen].
 I work mostly in programming languages ([PLSE] group),
-  but I enjoy collaborating with friends in 
+  but I enjoy collaborating with friends in
   molecular systems ([MISL]),
   and machine learning systems ([SAMPL]).
-  
+
 I'm currently working on [`egg`], a toolkit for program optimization and synthesis
 powered by e-graphs and equality saturation.
 We've applied it to some really fun domains like
   [improving floating point accuracy](https://herbie.uwplse.org),
   [shrinking 3D models](/papers/pldi-szalinski),
-  and 
+  and
   [linear algebra optimization](https://arxiv.org/abs/2002.07951).
 
-I've also worked on programming models for microfluidic chips. 
+I've also worked on programming models for microfluidic chips.
 The [Puddle][] framework aims to provide a safer, easier
 way to program these devices, which promise to make labs-on-a-chip (LoCs)
 scalable and affordable.
@@ -43,6 +43,10 @@ scalable and affordable.
 - 2020 Oct
   - Our [paper](/papers/egg) on `egg` will appear at [POPL 2021](https://popl21.sigplan.org/)
     as a "Distinguished Paper"!
+	\\
+    Check out the
+	[5 min](https://youtu.be/ap29SzDAzP0) or
+    [30 min](https://youtu.be/LKELTEOFY-s) video talks.
 
 - 2020 Jun
   - I've been working on this e-graph library called [`egg`] for a while.
@@ -50,7 +54,7 @@ scalable and affordable.
     describing the system and some of its novel ideas.
   - I'm doing a summer internship at [OctoML](https://octoml.ai/) using [`egg`]
     to optimize parts of the TVM compiler stack.
-    
+
 - 2020 Mar
   - Some friends and I wrote a fun [paper](/papers/pldi-szalinski) about
     synthesizing 3D CAD models. It will appear (virtually!) at PLDI 2020.
@@ -99,7 +103,7 @@ scalable and affordable.
 
 </section>
 
-<section id="papers"> 
+<section id="papers">
 
 <h2>Papers</h2>
 
@@ -110,4 +114,3 @@ scalable and affordable.
 </ul>
 
 </section>
-
