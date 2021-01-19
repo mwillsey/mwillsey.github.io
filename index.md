@@ -40,6 +40,9 @@ scalable and affordable.
 
 ## News
 
+- 2021 Jan
+  - Our [paper](/papers/tensat) applying `egg` to deep learning graph rewriting
+    will appear at [MLSys 2021](https://mlsys.org/Conferences/2021).
 - 2020 Oct
   - Our [paper](/papers/egg) on `egg` will appear at [POPL 2021](https://popl21.sigplan.org/)
     as a "Distinguished Paper"!
