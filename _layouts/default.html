@@ -1,23 +1,24 @@
+{% capture title %}
+    {% if page.shorttitle %}
+	mwillsey | {{ page.shorttitle | strip_html | downcase }}
+    {% elsif page.title %}
+	mwillsey | {{ page.title | strip_html | downcase }}
+    {% else %}
+	mwillsey
+    {% endif %}
+{% endcapture %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>
-        {% if page.shorttitle %}
-            mwillsey | {{ page.shorttitle | strip_html | downcase }}
-        {% elsif page.title %}
-            mwillsey | {{ page.title | strip_html | downcase }}
-        {% else %}
-            mwillsey
-        {% endif %}
-    </title>
+    <title> {{ title }} </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-          content="Max Willsey, PhD Student at the University of Washington">
-    <meta property="og:title" content="Max Willsey" />
-    <meta property="og:description" content="Max Willsey, PhD Student at the University of Washington" />
+    <meta property="og:title" content="{{ title }}" />
     <meta property="og:image" content="/assets/max.jpg" />
     <link rel="stylesheet" href="/main.css">
+    {% if page.style %}
+        <style> {{ page.style | scssify }} </style>
+    {% endif %}
 </head>
 <body>
   <nav>
