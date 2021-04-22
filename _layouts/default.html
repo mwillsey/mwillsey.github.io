@@ -37,10 +37,12 @@
       {{ content }}
   </main>
 
+  {% if self.no-footer == true %}
   <footer>
     Site last updated on {{ site.time | date: "%Y-%m-%d" }}.
     Edit me on <a href="https://github.com/mwillsey/mwillsey.github.io/">Github</a>.
   </footer>
+  {% endif %}
 
   {% comment %}
       if you visit #skipgc then this browser will skip being counted
