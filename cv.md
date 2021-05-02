@@ -3,6 +3,8 @@ layout: default
 no-footer: true
 ---
 <style>
+h1 { font-size: 120% }
+main > ul { font-size: 85% }
 a { color: black !important }
 a * { color: black !important }
 li { margin-bottom: 1em }
@@ -11,7 +13,8 @@ li { margin-bottom: 1em }
 # Education
 
 - University of Washington, PhD 2021 \\
-  _Thesis:_ Fast, Flexible Equality Saturation
+  _Thesis:_ Fast, Flexible Equality Saturation \\
+  _Project page_: [`egraphs-good.github.io`](https://egraphs-good.github.io)
 - Carnegie Mellon University, BS 2016 \\
   _Thesis:_ Design and Implementation of Concurrent C0
 
@@ -20,7 +23,7 @@ li { margin-bottom: 1em }
 
 - Research Assistant \\
   University of Washington, 2016--2021 \\
-  Led and participated in research projects, published several papers, mentored several undergraduate students
+  Led and participated in research projects, published papers, mentored a diverse range of undergraduate students
 
 - Research Intern \\
   OctoML, Summer 2020 \\
@@ -33,14 +36,30 @@ li { margin-bottom: 1em }
 # Recognition
 
 - Distinguished Paper, POPL 2021, "egg: Fast and extensible equality saturation"
+- Invited Post, SIGPLAN Blog 2021, "[Fast and Extensible Equality Saturation with egg](https://blog.sigplan.org/2021/04/06/equality-saturation-with-egg/)"
 - Invited Speaker, ICCAD 2019, "Scaling Microfluidics to Complex, Dynamic Protocols"
 - Invited Speaker, Biochips Summer School 2019
 - Qualcomm Innovation Fellow, 2019
 - NSF Graduate Research Fellowship Honorable Mention, 2018
 
+# Service
+
+- Co-chair, PhD student recruiting and visit days, 2019
+- Co-organizer, CSE Pre-Application Review Service, 2020 \\
+  Helped create a program to provide support and feedback on applicants CV and statements,
+  especially applicants from historically marginalized populations
+- Member, PhD student application reading committee, 2018-2021 \\
+  Read PhD applications and raised the profile of diverse, qualified applicants
+- Co-chair, PhD student orientation, 2018
+- Member, Department chair selection committee, 2019
+<!-- - Co-organizer: RCR, TGIF, Pocsci -->
+
 # Publications
 
 <ul class="papers">
+<style>
+.paper-title { font-size: 100% }
+</style>
 {% for paper in site.categories.papers %}
   {% include paper.html title=1 paper=paper elem="li" %}
 {% endfor %}
