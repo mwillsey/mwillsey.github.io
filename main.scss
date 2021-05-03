@@ -52,6 +52,15 @@ $right-pct: $right / ($total - $right) * 100%;
     }
 }
 
+@media print {
+    .no-print { display: none }
+    // nav {
+    //     margin-bottom: 1em !important;
+    //     #name { margin-bottom: 0.5em !important }
+    // }
+    .pagebreak { page-break-before: always }
+}
+
 .post-date {
     color: $dim;
 }
