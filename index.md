@@ -6,8 +6,8 @@ layout: default
 
 <img id="max-photo" style="max-height: 300px" class="right" src="/assets/max.jpg">
 
-I'm a fifth-year Ph.D. candidate at the University of Washington
-[Paul G. Allen School of Computer Science & Engineering][allen].
+I'm a post-doctoral researcher at the University of Washington, where
+ I also earned my PhD.
 I work mostly in programming languages ([PLSE] group),
   but I enjoy collaborating with friends in
   molecular systems ([MISL]),
@@ -21,7 +21,7 @@ We've applied it to some really fun domains like
   and
   [linear algebra optimization](https://arxiv.org/abs/2002.07951).
 
-I've also worked on programming models for microfluidic chips.
+Earlier in my PhD, I also worked on programming models for microfluidic chips.
 The [Puddle][] framework aims to provide a safer, easier
 way to program these devices, which promise to make labs-on-a-chip (LoCs)
 scalable and affordable.
@@ -40,6 +40,9 @@ scalable and affordable.
 
 ## News
 
+- 2021 May
+  - I defended my PhD! You can find my thesis [here](//mwillsey.com/thesis/thesis.pdf).
+    I'll be staying on as a postdoc to work on [`egg`] and related projects.
 - 2021 Jan
   - Our [paper](/papers/tensat) applying `egg` to deep learning graph rewriting
     will appear at [MLSys 2021](https://mlsys.org/Conferences/2021).
