@@ -47,7 +47,8 @@
       {{ content }}
   </main>
 
-  {% if self.no-footer == true %}
+  {% if self.no-footer %}
+  {% else %}
   <footer>
     Site last updated on {{ site.time | date: "%Y-%m-%d" }}.
     Edit me on <a href="https://github.com/mwillsey/mwillsey.github.io/">Github</a>.
