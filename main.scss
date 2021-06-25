@@ -1,12 +1,23 @@
 ---
 ---
 
-$color1: #58A4B0;
-$color2: #7B3E19;
+:root {
+  --bg-h: 95;
+  --bg-s: 50%;
+  --bg-l: 95%;
+  --bg: hsl(var(--bg-h), var(--bg-s), var(--bg-l));
+  --bg-d05: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 5%));
+  --bg-d10: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 10%));
 
-$background: lighten($color1, 43%);
-$accent: lighten($color2, 0%);
-$dim: #666;
+  // accent is computed from bg
+  --ac-h: calc(var(--bg-h) + 180);
+  --ac-s: 90%;
+  --ac-l: 25%;
+  --ac: hsl(var(--ac-h), var(--ac-s), var(--ac-l));
+  --ac-l10: hsl(var(--ac-h), var(--ac-s), calc(var(--ac-l) + 10%));
+
+  --dim: #666;
+}
 
 $desktop-width: 800px;
 
@@ -62,7 +73,7 @@ $right-pct: $right / ($total - $right) * 100%;
 }
 
 .post-date {
-    color: $dim;
+    color: var(--dim);
 }
 
 div.highlighter-rouge {
@@ -70,9 +81,9 @@ div.highlighter-rouge {
 }
 
 aside {
-    background: darken($background, 5%);
-    border: 1px solid darken($background, 10%);
-    border-left: 10px solid darken($background, 10%);
+    background: var(--bg-d05);
+    border: 1px solid var(--bg-d10);
+    border-left: 10px solid var(--bg-d10);
     padding: 10px;
     border-radius: 10px;
 
@@ -90,13 +101,13 @@ body {
     padding: 2em;
     margin: auto;
     color: #111;
-    background: $background;
+    background: var(--bg);
 }
 
 nav {
     text-align: center;
-    a { white-space: nowrap; }
     margin-bottom: 2em;
+    a { white-space: nowrap; }
 
     #name {
         font-size: 1.4rem;
@@ -114,6 +125,7 @@ img {
     display: block;
     margin: auto;
     max-width: 100%;
+    border: 5px solid var(--bg-d10);
     border-radius: 3px;
     object-fit: scale-down;
 }
@@ -127,8 +139,8 @@ code {
     font-family: "Inconsolata", "Menlo", "DejaVu Sans Mono", monospace;
 }
 
-a:link, a:visited, a code { color: $accent }
-a:hover {color: lighten( $accent, 10% )}
+a:link, a:visited, a code { color: var(--ac) }
+a:hover {color: var(--ac-l10)}
 
 details.bibtex {
     margin: 1em 0;
@@ -201,7 +213,7 @@ figure {
 }
 
 footer {
-    color: $dim;
+    color: var(--dim);
     font-size: 70%;
 }
 

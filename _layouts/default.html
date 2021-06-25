@@ -19,6 +19,16 @@
     {% if page.style %}
         <style> {{ page.style | scssify }} </style>
     {% endif %}
+    <script>
+     let root = document.documentElement;
+     let bg_hue = Math.floor(Math.random() * 360);
+     function set_bg() {
+       bg_hue = (bg_hue + 1) % 360;
+       root.style.setProperty('--bg-h', bg_hue);
+     }
+     set_bg()
+     setInterval(set_bg, 10 * 1000);
+    </script>
 </head>
 <body>
   <nav>
