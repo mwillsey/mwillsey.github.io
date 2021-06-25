@@ -127,7 +127,7 @@ img {
     max-width: 100%;
     border: 5px solid var(--bg-d10);
     border-radius: 3px;
-    object-fit: scale-down;
+    object-fit: cover;
 }
 
 pre {
