@@ -6,22 +6,23 @@ layout: default
 
 <img id="max-photo" style="max-height: 300px" class="right" src="/assets/max.jpg">
 
-I'm a post-doctoral researcher at the University of Washington, where
- I also earned my PhD.
-I work mostly in programming languages ([PLSE] group),
-  but I enjoy collaborating with friends in
-  molecular systems ([MISL]),
-  and machine learning systems ([SAMPL]).
+I'm a post-doctoral researcher in computer science at the University of Washington.
 
-I'm currently working on [`egg`], a toolkit for program optimization and synthesis
+My current focus is [`egg`],
+a toolkit for program optimization and synthesis
 powered by e-graphs and equality saturation.
 We've applied it to some really fun domains like
   [improving floating point accuracy](https://herbie.uwplse.org),
   [shrinking 3D models](/papers/pldi-szalinski),
   and
-  [linear algebra optimization](https://arxiv.org/abs/2002.07951).
+  [linear algebra optimization](/papers/tensat),
 
-Earlier in my PhD, I also worked on programming models for microfluidic chips.
+During my PhD (also at UW),
+I worked mostly in programming languages ([PLSE] group),
+but I enjoyed collaborating with friends in
+molecular systems ([MISL]),
+and machine learning systems ([SAMPL]).
+I also worked on programming models for microfluidic chips.
 The [Puddle][] framework aims to provide a safer, easier
 way to program these devices, which promise to make labs-on-a-chip (LoCs)
 scalable and affordable.
