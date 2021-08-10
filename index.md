@@ -44,6 +44,9 @@ scalable and affordable.
 - 2021 May
   - I defended my PhD! You can find my thesis [here](//mwillsey.com/thesis/thesis.pdf).
     I'll be staying on as a postdoc to work on [`egg`] and related projects.
+- 2021 Apr
+  - I wrote a [post](https://blog.sigplan.org/2021/04/06/equality-saturation-with-egg/)
+    on the SIGPLAN blog about `egg`.
 - 2021 Jan
   - Our [paper](/papers/tensat) applying `egg` to deep learning graph rewriting
     will appear at [MLSys 2021](https://mlsys.org/Conferences/2021).
