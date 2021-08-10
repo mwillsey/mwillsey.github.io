@@ -15,7 +15,7 @@ We've applied it to some really fun domains like
   [improving floating point accuracy](https://herbie.uwplse.org),
   [shrinking 3D models](/papers/pldi-szalinski),
   and
-  [linear algebra optimization](/papers/tensat),
+  [linear algebra optimization](/papers/tensat).
 
 During my PhD (also at UW),
 I worked mostly in programming languages ([PLSE] group),
