@@ -41,6 +41,9 @@ scalable and affordable.
 
 ## News
 
+- 2021 Aug
+  - Our paper on [inferring rewrites using equality saturation](/papers/ruler)
+    will appear at [OOPSLA 2021](https://2021.splashcon.org/track/splash-2021-oopsla).
 - 2021 May
   - I defended my PhD! You can find my thesis [here](//mwillsey.com/thesis/thesis.pdf).
     I'll be staying on as a postdoc to work on [`egg`] and related projects.
