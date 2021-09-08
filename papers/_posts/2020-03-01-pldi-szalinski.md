@@ -22,7 +22,7 @@ bib: |
       Max Willsey and
       Adam Anderson and
       James R. Wilcox and
-      Eva Darulova and 
+      Eva Darulova and
       Dan Grossman and
       Zachary Tatlock
     },
@@ -66,7 +66,7 @@ to robustly “shrink” unstructured CSG expressions into more editable program
 with map and fold operators.
 We present Szalinski, a tool that uses Equality
 Saturation with semantics-preserving CAD rewrites to efficiently search for
-smaller equivalent programs. 
+smaller equivalent programs.
 Szalinski relies on inverse transformations, a novel
 way for solvers to speculatively add equivalences to an E-graph.
 We qualitatively evaluate Szalinski in case studies, show how it composes with an
