@@ -12,6 +12,8 @@ permalink: /:categories/:title
 
 markdown: kramdown
 
+future: true
+
 # collections:
 #   papers:
 #     permalink: /:collection/:name:output_ext

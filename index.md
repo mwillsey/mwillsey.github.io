@@ -41,6 +41,9 @@ scalable and affordable.
 
 ## News
 
+- 2021 Sep
+  - Our paper [connecting e-matching to relational databases](/papers/relational-ematching)
+    was (conditionally) accepted to [POPL 2022](https://popl22.sigplan.org/).
 - 2021 Aug
   - Our paper on [inferring rewrites using equality saturation](/papers/ruler)
     will appear at [OOPSLA 2021](https://2021.splashcon.org/track/splash-2021-oopsla).
