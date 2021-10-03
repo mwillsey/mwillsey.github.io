@@ -11,7 +11,7 @@ authors:
   - mwillsey
   - ztatlock
 venue: "POPL 2022"
-venue_url: "https://popl22.sigplan.org/"
+venue_url: "https://popl22.sigplan.org/details/POPL-2022-popl-research-papers/35/Relational-E-Matching"
 
 links:
   arXiv: "https://arxiv.org/abs/2108.02290"
