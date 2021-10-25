@@ -12,7 +12,6 @@ no-footer: true
   }
   a { color: black !important }
   a * { color: black !important }
-  li.paper.star { list-style-type: none }
 }
 li { margin-bottom: 0.8em }
 </style>

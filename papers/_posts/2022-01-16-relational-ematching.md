@@ -2,7 +2,6 @@
 layout: paper
 title: "Relational E-Matching"
 shorttitle: relational e-matching
-class: star
 
 type: "publication"
 authors:

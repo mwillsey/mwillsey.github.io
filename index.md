@@ -41,12 +41,13 @@ scalable and affordable.
 
 ## News
 
+- 2021 Oct
+  - Our paper on [inferring rewrites using equality saturation](/papers/ruler)
+    was a _Distinguished Paper_ at 
+    [OOPSLA 2021](https://2021.splashcon.org/details/splash-2021-oopsla/23/Rewrite-Rule-Inference-Using-Equality-Saturation).
 - 2021 Sep
   - Our paper [connecting e-matching to relational databases](/papers/relational-ematching)
     was (conditionally) accepted to [POPL 2022](https://popl22.sigplan.org/).
-- 2021 Aug
-  - Our paper on [inferring rewrites using equality saturation](/papers/ruler)
-    will appear at [OOPSLA 2021](https://2021.splashcon.org/track/splash-2021-oopsla).
 - 2021 May
   - I defended my PhD! You can find my thesis [here](//mwillsey.com/thesis/thesis.pdf).
     I'll be staying on as a postdoc to work on [`egg`] and related projects.
