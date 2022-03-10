@@ -41,6 +41,9 @@ scalable and affordable.
 
 ## News
 
+- 2022 Feb
+  - I am organizing an [EGRAPHS workshop](https://pldi22.sigplan.org/home/egraphs-2022)
+    to be held at [PLDI 2022](https://pldi22.sigplan.org/) in San Diego! 
 - 2021 Oct
   - Our paper on [inferring rewrites using equality saturation](/papers/ruler)
     was a _Distinguished Paper_ at 
@@ -59,7 +62,7 @@ scalable and affordable.
     will appear at [MLSys 2021](https://mlsys.org/Conferences/2021).
 - 2020 Oct
   - Our [paper](/papers/egg) on `egg` will appear at [POPL 2021](https://popl21.sigplan.org/)
-    as a "Distinguished Paper"!
+    as a _Distinguished Paper_!
 	\\
     Check out the
 	[5 min](https://youtu.be/ap29SzDAzP0) or
@@ -69,12 +72,6 @@ scalable and affordable.
   - I've been working on this e-graph library called [`egg`] for a while.
     I and my fellow egg-heads put out a [paper](/papers/egg)
     describing the system and some of its novel ideas.
-  - I'm doing a summer internship at [OctoML](https://octoml.ai/) using [`egg`]
-    to optimize parts of the TVM compiler stack.
-
-- 2020 Mar
-  - Some friends and I wrote a fun [paper](/papers/pldi-szalinski) about
-    synthesizing 3D CAD models. It will appear (virtually!) at PLDI 2020.
 
 </section>
 
