@@ -19,13 +19,9 @@ We've applied it to some really fun domains like
 
 During my PhD (also at UW),
 I worked mostly in programming languages ([PLSE] group),
-but I enjoyed collaborating with friends in
+I also enjoyed collaborating with friends in
 molecular systems ([MISL]),
-and machine learning systems ([SAMPL]).
-I also worked on programming models for microfluidic chips.
-The [Puddle][] framework aims to provide a safer, easier
-way to program these devices, which promise to make labs-on-a-chip (LoCs)
-scalable and affordable.
+where I [worked on][Puddle] programming models for microfluidic chips.
 
 [allen]: https://www.cs.washington.edu
 [plse]:  http://uwplse.org
@@ -41,9 +37,9 @@ scalable and affordable.
 
 ## News
 
-- 2022 Feb
-  - I am organizing an [EGRAPHS workshop](https://pldi22.sigplan.org/home/egraphs-2022)
-    to be held at [PLDI 2022](https://pldi22.sigplan.org/) in San Diego! 
+- 2022 Jun
+  - The inaugural [EGRAPHS workshop](//egraphs-good.github.io/workshop/2022.html)
+    at [PLDI 2022](https://pldi22.sigplan.org/home/egraphs-2022) was a big hit!
 - 2021 Oct
   - Our paper on [inferring rewrites using equality saturation](/papers/ruler)
     was a _Distinguished Paper_ at 
