@@ -1,7 +1,7 @@
 ---
 layout: paper
-title: "Co-Optimization of Design and Fabrication Plans for Carpentry"
-shorttitle: capentry co-optimization
+title: "Virtualizing Existing Fluidic Programs"
+shorttitle: fluidic virtualization
 
 type: "publication"
 authors:
