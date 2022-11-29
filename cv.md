@@ -26,7 +26,7 @@ li { margin-bottom: 0.8em }
 # Education
 
 - University of Washington, PhD 2021 \\
-  _Thesis:_ Fast and Flexible Equality Saturation \\
+  _Thesis:_ [Fast and Flexible Equality Saturation](https://www.mwillsey.com/thesis/thesis.pdf) \\
   _Project page_: [`egraphs-good.github.io`](https://egraphs-good.github.io)
 - Carnegie Mellon University, BS 2016 \\
   _Thesis:_ Design and Implementation of Concurrent C0
