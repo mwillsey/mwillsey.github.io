@@ -1,5 +1,6 @@
 ---
 layout: paper
+hide: true
 title: "Extensible Semantics for Fluidics"
 
 authors: ["mwillsey", "jroesch"]

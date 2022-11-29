@@ -77,7 +77,9 @@ where I [worked on][Puddle] programming models for microfluidic chips.
 
 <ul class="papers">
 {% for paper in site.categories.papers %}
-  {% include paper.html title=1 paper=paper elem="li" %}
+  {% unless paper.hide %}
+    {% include paper.html title=1 paper=paper elem="li" %}
+  {% endunless %}
 {% endfor %}
 </ul>
 

@@ -2,6 +2,11 @@
 title: cv
 layout: default
 no-footer: true
+nav: |
+  <br>
+  <button class="no-print" style="margin-top: 5px; float:right" onclick="window.print();return false;">
+  Print
+  </button>
 ---
 <style>
 @media print {
@@ -16,6 +21,7 @@ no-footer: true
 }
 li { margin-bottom: 0.8em }
 </style>
+
 
 # Education
 
@@ -54,6 +60,7 @@ li { margin-bottom: 0.8em }
 
 # Service
 
+- [SIGPLAN-M](https://www.sigplan.org/LongTermMentoring/) mentor, 2021-present
 - External reviewer, ICFP 2022
 - Organizer, PC Chair, [EGRAPHS 2022](https://pldi22.sigplan.org/home/egraphs-2022) workshop at PLDI 2022
 - Co-organizer, CSE Pre-Application Review Service, 2020, 2021 \\
@@ -66,7 +73,7 @@ li { margin-bottom: 0.8em }
 - Co-chair, PhD student orientation, 2018
 <!-- - Co-organizer: RCR, TGIF, Pocsci -->
 
-<div class="pagebreak"></div>
+<!-- <div class="pagebreak"></div> -->
 
 # Publications
 
@@ -75,6 +82,8 @@ li { margin-bottom: 0.8em }
 .paper-title { font-size: 100% }
 </style>
 {% for paper in site.categories.papers %}
-  {% include paper.html title=1 paper=paper elem="li" %}
+  {% unless paper.hide %}
+    {% include paper.html title=1 paper=paper elem="li" %}
+  {% endunless %}
 {% endfor %}
 </ul>

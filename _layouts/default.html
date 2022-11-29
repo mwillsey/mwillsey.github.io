@@ -1,35 +1,43 @@
 {% capture title %}
-    {% if page.shorttitle %}
-	mwillsey | {{ page.shorttitle | strip_html | downcase }}
-    {% elsif page.title %}
-	mwillsey | {{ page.title | strip_html | downcase }}
-    {% else %}
-	mwillsey
-    {% endif %}
+{% if page.shorttitle %}
+mwillsey | {{ page.shorttitle | strip_html | downcase }}
+{% elsif page.title %}
+mwillsey | {{ page.title | strip_html | downcase }}
+{% else %}
+mwillsey
+{% endif %}
 {% endcapture %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <title> {{ title }} </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="{{ title }}" />
-    <meta property="og:image" content="/assets/max.jpg" />
-    <link rel="stylesheet" href="/main.css">
-    {% if page.style %}
-        <style> {{ page.style | scssify }} </style>
-    {% endif %}
-    <script>
-     let root = document.documentElement;
-     let bg_hue = Math.floor(Math.random() * 360);
-     function set_bg() {
-       bg_hue = (bg_hue + 1) % 360;
-       root.style.setProperty('--bg-h', bg_hue);
-     }
-     set_bg()
-     setInterval(set_bg, 10 * 1000);
-    </script>
+  <meta charset="utf-8">
+  <title> {{ title }} </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:image" content="/assets/max.jpg" />
+  <link rel="stylesheet" href="/main.css">
+  {% if page.style %}
+  <style>
+    {
+        {
+        page.style | scssify
+      }
+    }
+  </style>
+  {% endif %}
+  <script>
+    let root = document.documentElement;
+    let bg_hue = Math.floor(Math.random() * 360);
+    function set_bg() {
+      bg_hue = (bg_hue + 1) % 360;
+      root.style.setProperty('--bg-h', bg_hue);
+    }
+    set_bg()
+    setInterval(set_bg, 10 * 1000);
+  </script>
 </head>
+
 <body>
   <nav>
     <div id="name">
@@ -41,13 +49,14 @@
       <a class="no-print" href="https://github.com/mwillsey">GitHub</a>
       <a class="no-print" href="https://twitter.com/mwillsey">Twitter</a>
       <a class="no-print" href="https://scholar.google.com/citations?user=zko9-RwAAAAJ&hl=en">Google Scholar</a>
+      {{ page.nav }}
     </div>
   </nav>
   <main>
-      {{ content }}
+    {{ content }}
   </main>
 
-  {% if self.no-footer %}
+  {% if page.no-footer %}
   {% else %}
   <footer>
     Site last updated on {{ site.time | date: "%Y-%m-%d" }}.
@@ -56,15 +65,15 @@
   {% endif %}
 
   {% comment %}
-      if you visit #skipgc then this browser will skip being counted
+  if you visit #skipgc then this browser will skip being counted
   {% endcomment %}
   <script>
-        if (window.location.hash === '#skipgc')
-                localStorage.setItem('skipgc', 't');
-        if (localStorage.getItem('skipgc') === 't')
-                window.goatcounter = {no_onload: true};
+    if (window.location.hash === '#skipgc')
+      localStorage.setItem('skipgc', 't');
+    if (localStorage.getItem('skipgc') === 't')
+      window.goatcounter = { no_onload: true };
   </script>
-  <script data-goatcounter="https://mwillsey.goatcounter.com/count"
-          async src="//gc.zgo.at/count.js"></script>
+  <script data-goatcounter="https://mwillsey.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 ---
 layout: paper
+hide: true
 title: "Mega-Microfluidics"
 
 authors: [ "mwillsey", "luis" ]
