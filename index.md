@@ -8,6 +8,9 @@ layout: default
 
 I'm a post-doctoral researcher in computer science at the University of Washington.
 
+<b> I am seeking tenure-track faculty positions in the 2022-2023 cycle. </b>
+Please see my application materials <a href="https://www.mwillsey.com/faculty-application/">here</a>.
+
 My current focus is [`egg`],
 a toolkit for program optimization and synthesis
 powered by e-graphs and equality saturation.
