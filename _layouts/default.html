@@ -17,15 +17,6 @@ mwillsey
   <meta property="og:title" content="{{ title }}" />
   <meta property="og:image" content="/assets/max.jpg" />
   <link rel="stylesheet" href="/main.css">
-  {% if page.style %}
-  <style>
-    {
-        {
-        page.style | scssify
-      }
-    }
-  </style>
-  {% endif %}
   <script>
     let root = document.documentElement;
     let bg_hue = Math.floor(Math.random() * 360);
@@ -45,6 +36,7 @@ mwillsey
     </div>
     <div id="links">
       <a href="mailto:me@mwillsey.com">me@mwillsey.com</a>
+      <a class="only-print" href="https://www.mwillsey.com">https://mwillsey.com</a>
       <a class="no-print" href="/blog">Blog</a>
       <a class="no-print" href="https://github.com/mwillsey">GitHub</a>
       <a class="no-print" href="https://twitter.com/mwillsey">Twitter</a>

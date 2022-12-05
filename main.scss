@@ -54,7 +54,10 @@ $right-pct: $right / ($total - $right) * 100%;
 
     nav {
         #name { float: left; }
-        #links { float: right; }
+        #links {
+            float: right; 
+            a + a { margin-left: 10px; }
+        }
     }
 
     aside {
@@ -63,8 +66,10 @@ $right-pct: $right / ($total - $right) * 100%;
     }
 }
 
+.only-print { display: none }
 @media print {
     .no-print { display: none }
+    .only-print { display: inherit }
     // nav {
     //     margin-bottom: 1em !important;
     //     #name { margin-bottom: 0.5em !important }
@@ -114,10 +119,6 @@ nav {
         font-size: 1.4rem;
         a { text-decoration: none }
         margin-bottom: 1em;
-    }
-
-    #links {
-        a + a { margin-left: 10px; }
     }
 }
 
