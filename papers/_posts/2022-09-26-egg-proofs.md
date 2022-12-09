@@ -17,11 +17,14 @@ links:
   arXiv: "https://arxiv.org/abs/2209.03398"
 
 bib: |
-  @article{flatt2022small,
+  @inproceedings{flatt2022small,
     title={Small Proofs from Congruence Closure},
     author={Flatt, Oliver and Coward, Samuel and Willsey, Max and Tatlock, Zachary and Panchekha, Pavel},
-    journal={arXiv preprint arXiv:2209.03398},
-    year={2022}
+    booktitle={Proceedings of the 22nd Conference On Formal Methods in Computer-Aided Design--FMCAD 2022},
+    volume={3},
+    pages={75},
+    year={2022},
+    organization={TU Wien Academic Press}
   }
 ---
 
