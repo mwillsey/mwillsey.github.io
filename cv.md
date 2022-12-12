@@ -60,9 +60,10 @@ li { margin-bottom: 0.8em }
 
 # Service
 
+- Organizer, PC Chair, [EGRAPHS 2023](https://pldi23.sigplan.org/home/egraphs-2023) workshop at PLDI 2023
 - [SIGPLAN-M](https://www.sigplan.org/LongTermMentoring/) mentor, 2021-present
 - External reviewer, ICFP 2022
-- Organizer, PC Chair, [EGRAPHS 2022](https://pldi22.sigplan.org/home/egraphs-2022) workshop at PLDI 2022
+- Organizer, PC Chair, inaugural [EGRAPHS 2022](https://pldi22.sigplan.org/home/egraphs-2022) workshop at PLDI 2022
 - Co-organizer, CSE Pre-Application Review Service, 2020, 2021 \\
   Helped create a program to provide support and feedback on applicants' CV and statements,
   especially applicants from historically marginalized populations
