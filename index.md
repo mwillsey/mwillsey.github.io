@@ -40,6 +40,9 @@ where I [worked on][Puddle] programming models for microfluidic chips.
 
 ## News
 
+- 2022 Dec
+  - The second edition of the EGRAPHS workshop, [EGRAPHS 2023](https://pldi23.sigplan.org/home/egraphs-2023),
+    will take place at [PLDI 2023](https://pldi23.sigplan.org/) in Orlando!
 - 2022 Jun
   - The inaugural [EGRAPHS workshop](//egraphs-good.github.io/workshop/2022.html)
     at [PLDI 2022](https://pldi22.sigplan.org/home/egraphs-2022) was a big hit!
@@ -66,11 +69,6 @@ where I [worked on][Puddle] programming models for microfluidic chips.
     Check out the
 	[5 min](https://youtu.be/ap29SzDAzP0) or
     [30 min](https://youtu.be/LKELTEOFY-s) video talks.
-
-- 2020 Jun
-  - I've been working on this e-graph library called [`egg`] for a while.
-    I and my fellow egg-heads put out a [paper](/papers/egg)
-    describing the system and some of its novel ideas.
 
 </section>
 
