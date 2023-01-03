@@ -15,6 +15,7 @@ venue_url: "https://fmcad.org/FMCAD22/accepted/"
 
 links:
   arXiv: "https://arxiv.org/abs/2209.03398"
+  slides: "https://fmcad.org/FMCAD22/presentations/06%20-%20Proofs%201/01_flatt.pdf"
 
 bib: |
   @inproceedings{flatt2022small,
