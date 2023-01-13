@@ -149,29 +149,31 @@ details.bibtex {
 }
 
 .author.me { font-weight: bold; }
-.paper-title { font-weight: normal; margin-bottom: 0; }
 
 ul.papers a:link:not(:hover) {
     text-decoration: none;
 }
 
 #news {
-    // remove markdown paragraph spacing
-    p { display: inline; margin: 0 }
+    p { 
+        // remove markdown paragraph spacing
+        display: inline; 
+        margin: 0; 
+    }
 
     > ul {
         padding: 0;
         margin: 0;
-        list-style: none;
-
-        > li {
-            > ul {
-                padding-left: 40px;
-                margin-bottom: 1em;
-                list-style: disc;
-                > li {
-                    margin-top: 0.3em;
-                }
+        display: table;
+        border-spacing: 1em;
+        li {
+            display: table-row;
+            time {
+                display: table-cell;
+                // padding-right: 1em;
+                // padding-bottom: 1em;
+                color: var(--dim);
+                font-style: italic;
             }
         }
     }
@@ -203,6 +205,10 @@ ul.papers a:link:not(:hover) {
 }
 
 .paper { page-break-inside: avoid };
+.paper-title {
+     font-weight: normal; 
+     margin-bottom: 0;
+}
 .paper-authors { @extend .comma-list }
 .paper-links { @extend .bracket-list }
 .paper-notes { font-style: italic; }
