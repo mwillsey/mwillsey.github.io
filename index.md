@@ -43,6 +43,7 @@ where I [worked on][Puddle] programming models for microfluidic chips.
 - <time>2023.06</time>
   The second EGRAPHS workshop, [EGRAPHS 2023](https://pldi23.sigplan.org/home/egraphs-2023),
   will take place at [PLDI 2023](https://pldi23.sigplan.org/) in Orlando!
+  Submit your presentation (in-progress or published work okay!) before April 5.
 - <time>2023.01</time>
   Our [POPL 2023 paper](/papers/babble) shows how to use e-graph anti-unification to
   learn library functions from a body of code.
