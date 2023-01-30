@@ -58,12 +58,18 @@ li { margin-bottom: 0.8em }
 - Qualcomm Innovation Fellow, 2019
 - NSF Graduate Research Fellowship Honorable Mention, 2018
 
-# Service
+# Program Committee Service
 
-- Organizer, PC Chair, [EGRAPHS 2023](https://pldi23.sigplan.org/home/egraphs-2023) workshop at PLDI 2023
+- [EGRAPHS 2023](https://pldi23.sigplan.org/home/egraphs-2023) workshop at PLDI 2023,
+  Organizer, PC Chair
+- [PLDI 2023 SRC](https://pldi23.sigplan.org/track/pldi-2023-src), PC member and judge
+- ICFP 2022, external reviewer
+- [EGRAPHS 2022](https://pldi22.sigplan.org/home/egraphs-2022) workshop at PLDI 2022,
+  Organizer, PC Chair
+
+# Other Service
+
 - [SIGPLAN-M](https://www.sigplan.org/LongTermMentoring/) mentor, 2021-present
-- External reviewer, ICFP 2022
-- Organizer, PC Chair, inaugural [EGRAPHS 2022](https://pldi22.sigplan.org/home/egraphs-2022) workshop at PLDI 2022
 - Co-organizer, CSE Pre-Application Review Service, 2020, 2021 \\
   Helped create a program to provide support and feedback on applicants' CV and statements,
   especially applicants from historically marginalized populations
