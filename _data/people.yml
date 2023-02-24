@@ -92,7 +92,7 @@ adama:
   name: "Adam Anderson"
 
 ztatlock:
-  name: "Zach Tatlock"
+  name: "Zachary Tatlock"
   webpage: "https://ztatlock.net"
 
 pavel:
@@ -157,6 +157,7 @@ samcoward:
 
 dcao:
   name: David Cao
+  webpage: "https://cao.sh/"
 
 rose:
   name: Rose Kunkel
@@ -168,3 +169,10 @@ nadia:
 suciu:
   name: Dan Suciu
   webpage: "https://homes.cs.washington.edu/~suciu/"
+
+philzucker:
+  name: Philip Zucker
+  webpage: "https://www.philipzucker.com/"
+
+elirosenthal:
+  name: Eli Rosenthal

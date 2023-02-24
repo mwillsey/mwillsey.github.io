@@ -148,6 +148,7 @@ details.bibtex {
     margin: 1em 0;
 }
 
+.author { white-space: nowrap; }
 .author.me { font-weight: bold; }
 
 ul.papers a:link:not(:hover) {
