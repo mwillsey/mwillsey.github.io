@@ -23,26 +23,25 @@ li { margin-bottom: 0.8em }
 </style>
 
 
+# Experience
+
+- Postdoctoral Researcher \\
+  University of Washington, 2021--present \\
+  <!-- Led and participated in research projects, published papers, mentored a diverse range of undergraduate students -->
+
 # Education
 
 - University of Washington, PhD 2021 \\
-  _Thesis:_ [Fast and Flexible Equality Saturation](https://www.mwillsey.com/thesis/thesis.pdf) \\
-  _Project page_: [`egraphs-good.github.io`](https://egraphs-good.github.io)
+  _Thesis:_ [Fast and Flexible Equality Saturation](https://www.mwillsey.com/thesis/thesis.pdf)
+  <!-- _Project page_: [`egraphs-good.github.io`](https://egraphs-good.github.io) -->
 - Carnegie Mellon University, BS 2016 \\
-  _Thesis:_ Design and Implementation of Concurrent C0
+  _Thesis:_ [Design and Implementation of Concurrent C0](https://www.mwillsey.com/papers/thesis-cc0)
 
-
-# Experience
-- Postdoctoral Researcher \\
-  University of Washington, 2021--present \\
-  Led and participated in research projects, published papers, mentored a diverse range of undergraduate students
-
-- Research Assistant \\
-  University of Washington, 2016--2021
-
-- Research Intern \\
+<!-- - Research Intern \\
   OctoML, Summer 2020 \\
-  Designed and implemented a state-of-the-art term rewriting system for TVM
+  Designed and implemented a state-of-the-art term rewriting system for TVM -->
+
+# Teaching
 
 - Instructor \\
   University of Washington, Winter 2019 \\
