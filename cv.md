@@ -43,9 +43,10 @@ li { margin-bottom: 0.8em }
 
 # Teaching
 
-- Instructor \\
-  University of Washington, Winter 2019 \\
-  Co-taught CSE 351, a ~200 person course on the hardware-software interface
+- [CSE 351](https://courses.cs.washington.edu/courses/cse351/19wi/), Winter 2019 \\
+  University of Washington \\
+  A ~200 person course on the hardware-software interface,
+  co-taught with {% include person.html key="luis" %}. 
 
 # Recognition
 
@@ -59,6 +60,7 @@ li { margin-bottom: 0.8em }
 
 # Program Committee Service
 
+- [POPL 2024](https://popl24.sigplan.org), PC member
 - [EGRAPHS 2023](https://pldi23.sigplan.org/home/egraphs-2023) workshop at PLDI 2023,
   Organizer, PC Chair
 - [PLDI 2023 SRC](https://pldi23.sigplan.org/track/pldi-2023-src), PC member and judge
@@ -74,8 +76,7 @@ li { margin-bottom: 0.8em }
   especially applicants from historically marginalized populations
 - Co-chair, PhD student recruiting and visit days, 2019
 - Member, Department chair selection committee, 2019
-- Member, PhD student application reading committee, 2018-2021 \\
-  Read PhD applications and raised the profile of diverse, qualified applicants
+- Member, PhD student application reading committee, 2018-2021
 - Co-chair, PhD student orientation, 2018
 <!-- - Co-organizer: RCR, TGIF, Pocsci -->
 
