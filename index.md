@@ -43,7 +43,6 @@ where I [worked on][Puddle] programming models for microfluidic chips.
 - <time>2023.06</time>
   The second EGRAPHS workshop, [EGRAPHS 2023](https://pldi23.sigplan.org/home/egraphs-2023),
   will take place at [PLDI 2023](https://pldi23.sigplan.org/) in Orlando!
-  Submit your presentation (in-progress or published work okay!) before April 5.
 - <time>2023.04</time>
   Our [work connecting egg to Datalog](/papers/egglog) 
   will appear at [PLDI 2023](https://pldi23.sigplan.org/).
