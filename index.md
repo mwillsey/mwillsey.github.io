@@ -8,8 +8,7 @@ layout: default
 
 I'm a post-doctoral researcher in computer science at the University of Washington.
 
-<b> I am seeking tenure-track faculty positions in the 2022-2023 cycle. </b>
-Please see my application materials <a href="https://www.mwillsey.com/faculty-application/">here</a>.
+In January 2024, I will start as an Assistant Professor in [EECS at UC Berkeley](https://eecs.berkeley.edu/).
 
 My current focus is [`egg`],
 a toolkit for program optimization and synthesis
@@ -40,6 +39,9 @@ where I [worked on][Puddle] programming models for microfluidic chips.
 
 ## News
 
+- <time>2023.06</time>
+  I've accepted an Assistant Professor position at [EECS at UC Berkeley](https://eecs.berkeley.edu/).
+  I'll start in 2024.
 - <time>2023.06</time>
   The second EGRAPHS workshop, [EGRAPHS 2023](https://pldi23.sigplan.org/home/egraphs-2023),
   will take place at [PLDI 2023](https://pldi23.sigplan.org/) in Orlando!
