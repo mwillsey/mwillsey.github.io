@@ -20,7 +20,7 @@ We've applied it to some really fun domains like
   [linear algebra optimization](/papers/tensat).
 
 During my PhD (also at UW),
-I worked mostly in programming languages ([PLSE] group),
+I worked mostly in programming languages ([PLSE] group).
 I also enjoyed collaborating with friends in
 molecular systems ([MISL]),
 where I [worked on][Puddle] programming models for microfluidic chips.
