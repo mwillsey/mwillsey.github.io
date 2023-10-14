@@ -6,8 +6,6 @@ layout: default
 
 <img id="max-photo" style="max-height: 300px" class="right" src="/assets/max.jpg">
 
-I'm a post-doctoral researcher in computer science at the University of Washington.
-
 In January 2024, I will start as an Assistant Professor in [EECS at UC Berkeley](https://eecs.berkeley.edu/).
 
 My current focus is [`egg`],
@@ -19,7 +17,7 @@ We've applied it to some really fun domains like
   and
   [linear algebra optimization](/papers/tensat).
 
-During my PhD (also at UW),
+During my PhD and postdoc at the University of Washington,
 I worked mostly in programming languages ([PLSE] group).
 I also enjoyed collaborating with friends in
 molecular systems ([MISL]),
