@@ -151,6 +151,12 @@ details.bibtex {
 .author { white-space: nowrap; }
 .author.me { font-weight: bold; }
 
+.contact {
+    text-align: center;
+    li { list-style: none; }
+    ul { padding: 0; }
+}
+
 ul.papers a:link:not(:hover) {
     text-decoration: none;
 }

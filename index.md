@@ -2,11 +2,22 @@
 layout: default
 ---
 
+
 <section markdown="1" id="intro">
 
-<img id="max-photo" style="max-height: 300px" class="right" src="/assets/max.jpg">
+<!-- <div markdown="1" "id="contact"> -->
+<!-- - Assistant Professor, [EECS at UC Berkeley](https://eecs.berkeley.edu/) -->
+<!-- - Soda Hall, 725 -->
+<!-- - [mwillsey@eecs.berkeley.edu](mailto:mwillsey@eecs.berkeley.edu) -->
+<!-- </div> -->
 
-In January 2024, I will start as an Assistant Professor in [EECS at UC Berkeley](https://eecs.berkeley.edu/).
+<div class="contact right" markdown="1">
+<img id="max-photo" style="max-height: 300px" src="/assets/max.jpg">
+- Assistant Professor
+- [EECS at UC Berkeley](https://eecs.berkeley.edu/)
+- Soda Hall, 725
+- [mwillsey@eecs.berkeley.edu](mailto:mwillsey@eecs.berkeley.edu)
+</div>
 
 My current focus is [`egg`],
 a toolkit for program optimization and synthesis
