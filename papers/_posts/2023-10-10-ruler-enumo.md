@@ -17,7 +17,35 @@ venue: "OOPSLA 2023"
 venue_url: "https://2023.splashcon.org/details/splash-2023-oopsla/68/Equality-Saturation-Theory-Exploration-la-Carte"
 
 links:
-bib:
+    ACM DL: "https://dl.acm.org/doi/10.1145/3622834"
+bib: |
+    @article{10.1145/3622834,
+        author = {
+            Pal, Anjali and
+            Saiki, Brett and
+            Tjoa, Ryan and
+            Richey, Cynthia and
+            Zhu, Amy and
+            Flatt, Oliver and
+            Willsey, Max and
+            Tatlock, Zachary and
+            Nandi, Chandrakana
+        },
+        title = {Equality Saturation Theory Exploration \`{a} La Carte},
+        year = {2023},
+        issue_date = {October 2023},
+        publisher = {Association for Computing Machinery},
+        address = {New York, NY, USA},
+        volume = {7},
+        number = {OOPSLA2},
+        url = {https://doi.org/10.1145/3622834},
+        doi = {10.1145/3622834},
+        journal = {Proc. ACM Program. Lang.},
+        month = {oct},
+        articleno = {258},
+        numpages = {29},
+        keywords = {program synthesis, equality saturation, Rewrite rules}
+    }
 ---
 
 Rewrite rules are critical in equality saturation, an increasingly popular technique
