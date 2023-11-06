@@ -3,13 +3,6 @@ layout: default
 ---
 
 
-<section markdown="1" id="intro">
-
-<!-- <div markdown="1" "id="contact"> -->
-<!-- - Assistant Professor, [EECS at UC Berkeley](https://eecs.berkeley.edu/) -->
-<!-- - Soda Hall, 725 -->
-<!-- - [mwillsey@eecs.berkeley.edu](mailto:mwillsey@eecs.berkeley.edu) -->
-<!-- </div> -->
 
 <div class="contact right" markdown="1">
 <img id="max-photo" style="max-height: 300px" src="/assets/max.jpg">
@@ -19,6 +12,18 @@ layout: default
 - [mwillsey@eecs.berkeley.edu](mailto:mwillsey@eecs.berkeley.edu)
 </div>
 
+<section markdown="1" id="intro">
+
+I'm an (incoming) Assistant Professor in
+[EECS at UC Berkeley](https://eecs.berkeley.edu/).
+**I am recruiting PhD students this application cycle to start in Fall 2024.
+Please [apply here](https://eecs.berkeley.edu/academics/graduate/research-programs/admissions).**
+
+
+My research aims to make program optimization
+ more robust, powerful, and accessible.
+Along the way, we use techniques from programming languages,
+ databases, and systems.
 My current focus is [`egg`],
 a toolkit for program optimization and synthesis
 powered by e-graphs and equality saturation.
