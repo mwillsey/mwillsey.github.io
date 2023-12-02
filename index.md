@@ -53,6 +53,8 @@ where I [worked on][Puddle] programming models for microfluidic chips.
 
 ## News
 
+- <time>2023.12</time>
+  In the spring, I'm teaching a seminar course [CS294-260: Declarative Program Analysis and Optimization](https://inst.eecs.berkeley.edu/~cs294-260/sp24/).
 - <time>2023.06</time>
   I've accepted an Assistant Professor position at [EECS at UC Berkeley](https://eecs.berkeley.edu/).
   I'll start in 2024.
@@ -93,6 +95,19 @@ where I [worked on][Puddle] programming models for microfluidic chips.
   Check out the
   [5 min](https://youtu.be/ap29SzDAzP0) or
   [30 min](https://youtu.be/LKELTEOFY-s) video talks.
+{: .time-list}
+
+</section>
+
+<section id="teaching">
+
+<h2>Teaching</h2>
+
+<ul class="time-list">
+{% for course in site.data.teaching %}
+  <li> <time>{{ course.when }}</time> <a href="{{ course.url }}">{{ course.number }}: {{ course.title }}</a> </li>
+{% endfor %}
+</ul>
 
 </section>
 

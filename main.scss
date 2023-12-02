@@ -167,23 +167,28 @@ ul.papers a:link:not(:hover) {
         display: inline; 
         margin: 0; 
     }
+}
 
-    > ul {
-        padding: 0;
-        margin: 0;
-        display: table;
-        border-spacing: 1em;
-        li {
-            display: table-row;
-            time {
-                display: table-cell;
-                // padding-right: 1em;
-                // padding-bottom: 1em;
-                color: var(--dim);
-                font-style: italic;
-            }
+.time-list {
+    padding: 0;
+    margin: 0;
+    display: table;
+    border-spacing: 1em;
+    li {
+        display: table-row;
+        time {
+            display: table-cell;
+            // padding-right: 1em;
+            // padding-bottom: 1em;
+            color: var(--dim);
+            font-style: italic;
         }
     }
+}
+
+time {
+    color: var(--dim);
+    font-style: italic;
 }
 
 .inline-list {
