@@ -14,15 +14,11 @@ layout: default
 
 <section markdown="1" id="intro">
 
-I'm an (incoming) Assistant Professor in
+I'm an Assistant Professor in
 [EECS at UC Berkeley](https://eecs.berkeley.edu/).
-**I am recruiting PhD students this application cycle to start in Fall 2024.
-Please [apply here](https://eecs.berkeley.edu/academics/graduate/research-programs/admissions).**
-
-
 My research aims to make program optimization
  more robust, powerful, and accessible.
-Along the way, we use techniques from programming languages,
+Along the way, I use techniques from programming languages,
  databases, and systems.
 My current focus is [`egg`],
 a toolkit for program optimization and synthesis
@@ -33,18 +29,12 @@ We've applied it to some really fun domains like
   and
   [linear algebra optimization](/papers/tensat).
 
-During my PhD and postdoc at the University of Washington,
-I worked mostly in programming languages ([PLSE] group).
-I also enjoyed collaborating with friends in
-molecular systems ([MISL]),
-where I [worked on][Puddle] programming models for microfluidic chips.
+I did my PhD and postdoc at the University of Washington
+ in the programming languages ([PLSE]) group.
 
 [allen]: https://www.cs.washington.edu
 [plse]:  http://uwplse.org
-[misl]:  http://misl.cs.washington.edu
-[puddle]: http://misl.cs.washington.edu/projects/fluidics.html
 [`egg`]: https://egraphs-good.github.io
-[sampl]: https://sampl.cs.washington.edu/
 
 
 </section>
@@ -53,8 +43,8 @@ where I [worked on][Puddle] programming models for microfluidic chips.
 
 ## News
 
-- <time>2023.12</time>
-  In the spring, I'm teaching a seminar course [CS294-260: Declarative Program Analysis and Optimization](https://inst.eecs.berkeley.edu/~cs294-260/sp24/).
+- <time>2024.01</time>
+  In Spring 2024, I'm teaching a seminar course [CS294-260: Declarative Program Analysis and Optimization](https://inst.eecs.berkeley.edu/~cs294-260/sp24/).
 - <time>2023.06</time>
   I've accepted an Assistant Professor position at [EECS at UC Berkeley](https://eecs.berkeley.edu/).
   I'll start in 2024.
@@ -105,7 +95,11 @@ where I [worked on][Puddle] programming models for microfluidic chips.
 
 <ul class="time-list">
 {% for course in site.data.teaching %}
-  <li> <time>{{ course.when }}</time> <a href="{{ course.url }}">{{ course.number }}: {{ course.title }}</a> </li>
+  <li> 
+    <time>{{ course.when }}</time>
+    <a href="{{ course.url }}">{{ course.number }}</a>: {{ course.title }} 
+    {% if course.note %} <br> {{ course.note }} {% endif %}
+  </li>
 {% endfor %}
 </ul>
 

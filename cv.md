@@ -25,8 +25,10 @@ li { margin-bottom: 0.8em }
 
 # Experience
 
+- Assistant Professor \\
+  University of California, Berkeley, 2024--present 
 - Postdoctoral Researcher \\
-  University of Washington, 2021--present \\
+  University of Washington, 2021--2023 \\
   <!-- Led and participated in research projects, published papers, mentored a diverse range of undergraduate students -->
 
 # Education
@@ -43,10 +45,15 @@ li { margin-bottom: 0.8em }
 
 # Teaching
 
-- [CSE 351](https://courses.cs.washington.edu/courses/cse351/19wi/), Winter 2019 \\
-  University of Washington \\
-  A ~200 person course on the hardware-software interface,
-  co-taught with {% include person.html key="luis" %}. 
+<ul>
+{% for course in site.data.teaching %}
+  <li>
+    <a href="{{ course.url }}">{{ course.number }}</a>: {{ course.title }}
+    <br> {{ course.when }}
+    {% if course.note %} <br> {{ course.note }} {% endif %}
+  </li>
+{% endfor %}
+</ul>
 
 # Recognition
 
