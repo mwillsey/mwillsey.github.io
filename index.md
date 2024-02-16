@@ -20,21 +20,17 @@ My research aims to make program optimization
  more robust, powerful, and accessible.
 Along the way, I use techniques from programming languages,
  databases, and systems.
-My current focus is [`egg`],
-a toolkit for program optimization and synthesis
-powered by e-graphs and equality saturation.
-We've applied it to some really fun domains like
-  [improving floating point accuracy](https://herbie.uwplse.org),
-  [shrinking 3D models](/papers/pldi-szalinski),
-  and
-  [linear algebra optimization](/papers/tensat).
 
-I did my PhD and postdoc at the University of Washington
- in the programming languages ([PLSE]) group.
+Check out these pages for info on my current projects:
 
-[allen]: https://www.cs.washington.edu
-[plse]:  http://uwplse.org
-[`egg`]: https://egraphs-good.github.io
+- The [egg](https://egraphs-good.github.io) project uses e-graphs to 
+  build new kinds of program optimizers.
+  - See also the Github pages for 
+    [egg](https://github.com/egraphs-good/egg)
+    and [egglog](https://github.com/egraphs-good/egglog).
+- The [EGRAPHS Community](https://egraphs.org/), 
+  a community for e-graphs researchers consisting of a forum, 
+  a workshop, and a monthly seminary series.
 
 
 </section>
@@ -43,14 +39,12 @@ I did my PhD and postdoc at the University of Washington
 
 ## News
 
+- <time>2024.06</time>
+  The third EGRAPHS workshop, [EGRAPHS 2024](https://pldi24.sigplan.org/home/egraphs-2024),
+  will take place at [PLDI 2024](https://pldi24.sigplan.org/) in Orlando!
+  Submissions are due April 5.
 - <time>2024.01</time>
-  In Spring 2024, I'm teaching a seminar course [CS294-260: Declarative Program Analysis and Optimization](https://inst.eecs.berkeley.edu/~cs294-260/sp24/).
-- <time>2023.06</time>
-  I've accepted an Assistant Professor position at [EECS at UC Berkeley](https://eecs.berkeley.edu/).
-  I'll start in 2024.
-- <time>2023.06</time>
-  The second EGRAPHS workshop, [EGRAPHS 2023](https://pldi23.sigplan.org/home/egraphs-2023),
-  will take place at [PLDI 2023](https://pldi23.sigplan.org/) in Orlando!
+  I've started as an Assistant Professor position at [EECS at UC Berkeley](https://eecs.berkeley.edu/)!
 - <time>2023.04</time>
   Our [work connecting egg to Datalog](/papers/egglog) 
   will appear at [PLDI 2023](https://pldi23.sigplan.org/).
@@ -60,9 +54,6 @@ I did my PhD and postdoc at the University of Washington
 - <time>2023.01</time>
   Our [POPL 2023 paper](/papers/babble) shows how to use e-graph anti-unification to
   learn library functions from a body of code.
-- <time>2022.01</time>
-  The inaugural [EGRAPHS workshop](//egraphs-good.github.io/workshop/2022.html)
-  at [PLDI 2022](https://pldi22.sigplan.org/home/egraphs-2022) was a big hit!
 - <time>2021.10</time>
   Our paper on [inferring rewrites using equality saturation](/papers/ruler)
   was a _Distinguished Paper_ at 
@@ -70,15 +61,6 @@ I did my PhD and postdoc at the University of Washington
 - <time>2021.09</time>
   Our paper [connecting e-matching to relational databases](/papers/relational-ematching)
   was (conditionally) accepted to [POPL 2022](https://popl22.sigplan.org/).
-- <time>2021.05</time>
-  I defended my PhD! You can find my thesis [here](//mwillsey.com/thesis/thesis.pdf).
-  I'll be staying on as a postdoc to work on [`egg`] and related projects.
-- <time>2021.04</time>
-  I wrote a [post](https://blog.sigplan.org/2021/04/06/equality-saturation-with-egg/)
-  on the SIGPLAN blog about `egg`.
-- <time>2021.01</time>
-  Our [paper](/papers/tensat) applying `egg` to deep learning graph rewriting
-  will appear at [MLSys 2021](https://mlsys.org/Conferences/2021).
 - <time>2020.10</time>
   Our [paper](/papers/egg) on `egg` will appear at [POPL 2021](https://popl21.sigplan.org/)
   as a _Distinguished Paper_!  \\
