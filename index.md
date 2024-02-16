@@ -41,7 +41,7 @@ Check out these pages for info on my current projects:
 
 - <time>2024.06</time>
   The third EGRAPHS workshop, [EGRAPHS 2024](https://pldi24.sigplan.org/home/egraphs-2024),
-  will take place at [PLDI 2024](https://pldi24.sigplan.org/) in Orlando!
+  will take place at [PLDI 2024](https://pldi24.sigplan.org/) in Copenhagen!
   Submissions are due April 5.
 - <time>2024.01</time>
   I've started as an Assistant Professor position at [EECS at UC Berkeley](https://eecs.berkeley.edu/)!
