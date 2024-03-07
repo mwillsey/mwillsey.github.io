@@ -8,6 +8,7 @@ nav: |
   Print
   </button>
 ---
+
 <style>
 @media print {
   h1 { font-size: 100% }
@@ -20,6 +21,11 @@ nav: |
   a * { color: black !important }
 }
 li { margin-bottom: 0.8em }
+
+li.old { display: none }
+li.old ~ li {
+  display: none;
+}
 </style>
 
 
@@ -59,6 +65,7 @@ li { margin-bottom: 0.8em }
 
 - Distinguished Paper, OOPSLA 2021, "[Rewrite Rule Inference Using Equality Saturation](/papers/ruler)"
 - Distinguished Paper, POPL 2021, "[egg: Fast and extensible equality saturation](/papers/egg)"
+- {: .old} Older Entries
 - Invited Post, SIGPLAN Blog 2021, "[Fast and Extensible Equality Saturation with egg](https://blog.sigplan.org/2021/04/06/equality-saturation-with-egg/)"
 - Invited Speaker, ICCAD 2019, "Scaling Microfluidics to Complex, Dynamic Protocols"
 - Invited Speaker, Biochips Summer School 2019
@@ -67,17 +74,21 @@ li { margin-bottom: 0.8em }
 
 # Program Committee Service
 
+<!-- - [Foundations and Trends in Databases](https://www.nowpublishers.com/DBS), Reviewer, 2024 -->
+- [EGRAPHS 2024](https://pldi24.sigplan.org/home/egraphs-2024) workshop at PLDI 2024, Organizer, PC Chair
+- [ASPLOS 2025](https://www.asplos-conference.org/asplos-2025-call-for-papers/), PC member
 - [POPL 2024](https://popl24.sigplan.org), PC member
-- [EGRAPHS 2023](https://pldi23.sigplan.org/home/egraphs-2023) workshop at PLDI 2023,
-  Organizer, PC Chair
+- [EGRAPHS 2023](https://pldi23.sigplan.org/home/egraphs-2023) workshop at PLDI 2023, Organizer, PC Chair
 - [PLDI 2023 SRC](https://pldi23.sigplan.org/track/pldi-2023-src), PC member and judge
 - ICFP 2022, external reviewer
-- [EGRAPHS 2022](https://pldi22.sigplan.org/home/egraphs-2022) workshop at PLDI 2022,
-  Organizer, PC Chair
+- [EGRAPHS 2022](https://pldi22.sigplan.org/home/egraphs-2022) workshop at PLDI 2022, Organizer, PC Chair
 
 # Other Service
 
+- [Regent's and Chancellor's Scholarship](https://financialaid.berkeley.edu/types-of-aid-at-berkeley/scholarships/regents-and-chancellors-scholarship/) Interviewer, 2024
+- Graduate Admissions Committee, 2023-24
 - [SIGPLAN-M](https://www.sigplan.org/LongTermMentoring/) mentor, 2021-present
+- {: .old} Older Entries
 - Co-organizer, CSE Pre-Application Review Service, 2020, 2021 \\
   Helped create a program to provide support and feedback on applicants' CV and statements,
   especially applicants from historically marginalized populations
