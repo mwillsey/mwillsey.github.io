@@ -5,16 +5,14 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "https://mwillsey.com"
 
-twitter_username: mwillsey
-github_username:  mwillsey
-
 permalink: /:categories/:title
 
 markdown: kramdown
+kramdown:
+  math_engine: nil
 
 future: true
 
-# collections:
-#   papers:
-#     permalink: /:collection/:name:output_ext
-#     output: true
+exclude:
+  - .vscode/
+  - .github/

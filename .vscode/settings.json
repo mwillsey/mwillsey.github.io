@@ -1,4 +1,7 @@
 {
     "liveServer.settings.root": "/_site",
-    "scss.format.enable": false
+    "scss.format.enable": false,
+    "markdown.copyFiles.destination": {
+        "*": "${documentWorkspaceFolder}/assets/${fileName}"
+    }
 }

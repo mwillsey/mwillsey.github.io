@@ -2,10 +2,22 @@
 layout: default
 ---
 
+{% if page.math %}
+<script>
+    MathJax = {
+        tex: {
+            inlineMath: [['$', '$']],
+            processEscapes: true,
+        },
+    };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{% endif %}
+
 <h1>{{ page.title }}</h1>
 
 <span class="post-date">
- {{ page.date | date: "%B %d, %Y" }}
+    {{ page.date | date: "%B %d, %Y" }}
 </span>
 
 {{ content }}

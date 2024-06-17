@@ -54,7 +54,7 @@ li.old ~ li {
 <ul>
 {% for course in site.data.teaching %}
   <li>
-    <a href="{{ course.url }}">{{ course.number }}</a>: {{ course.title }}
+    {% include link.html url=course.url text=course.number %}: {{ course.title }}
     <br> {{ course.when }}
     {% if course.note %} <br> {{ course.note }} {% endif %}
   </li>
@@ -63,6 +63,9 @@ li.old ~ li {
 
 # Recognition
 
+- SIGMOD Record Research Highlight, SIGMOD 2024, "[Free Join: Unifying Worst-Case Optimal and Traditional Joins](/papers/freejoin)"
+- [MIT PL Review 2024](https://plr.csail.mit.edu/) Selection, 
+  "[Better Together: Unifying Datalog and Equality Saturation](/papers/egglog)"
 - Distinguished Paper, OOPSLA 2021, "[Rewrite Rule Inference Using Equality Saturation](/papers/ruler)"
 - Distinguished Paper, POPL 2021, "[egg: Fast and extensible equality saturation](/papers/egg)"
 - {: .old} Older Entries
@@ -75,13 +78,21 @@ li.old ~ li {
 # Program Committee Service
 
 <!-- - [Foundations and Trends in Databases](https://www.nowpublishers.com/DBS), Reviewer, 2024 -->
-- [EGRAPHS 2024](https://pldi24.sigplan.org/home/egraphs-2024) workshop at PLDI 2024, Organizer, PC Chair
 - [ASPLOS 2025](https://www.asplos-conference.org/asplos-2025-call-for-papers/), PC member
+- [EGRAPHS 2024](https://pldi24.sigplan.org/home/egraphs-2024) workshop at PLDI 2024, Organizer, PC Chair
 - [POPL 2024](https://popl24.sigplan.org), PC member
 - [EGRAPHS 2023](https://pldi23.sigplan.org/home/egraphs-2023) workshop at PLDI 2023, Organizer, PC Chair
 - [PLDI 2023 SRC](https://pldi23.sigplan.org/track/pldi-2023-src), PC member and judge
 - ICFP 2022, external reviewer
 - [EGRAPHS 2022](https://pldi22.sigplan.org/home/egraphs-2022) workshop at PLDI 2022, Organizer, PC Chair
+
+# Invited Talks
+- PLDI 2024, [Programming Languages Mentoring Workshop](https://pldi24.sigplan.org/track/PLMW-PLDI-2024#program)
+- PLDI 2024, [Sparse Workshop](https://pldi24.sigplan.org/home/sparse-2024#program)
+- [Simons Institute Program on Logic and Algorithms in Database Theory and AI](https://simons.berkeley.edu/programs/logic-algorithms-database-theory-ai),
+  Nov 2023,
+  "[Datalog and Equality Saturation](https://simons.berkeley.edu/talks/max-willsey-uc-berkeley-2023-11-15)"
+
 
 # Other Service
 

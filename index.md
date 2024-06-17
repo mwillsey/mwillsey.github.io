@@ -32,6 +32,7 @@ Check out these pages for info on my current projects:
   a community for e-graphs researchers consisting of a forum, 
   a workshop, and a monthly seminary series.
 
+**I am looking for students in the 2024-25 application cycle.**
 
 </section>
 
@@ -42,14 +43,18 @@ Check out these pages for info on my current projects:
 - <time>2024.06</time>
   The third EGRAPHS workshop, [EGRAPHS 2024](https://pldi24.sigplan.org/home/egraphs-2024),
   will take place at [PLDI 2024](https://pldi24.sigplan.org/) in Copenhagen!
+  I will also be presenting at the 
+  [Programming Languages Mentoring Workshop](https://pldi24.sigplan.org/track/PLMW-PLDI-2024#program)
+  and the
+  [Sparse Workshop](https://pldi24.sigplan.org/home/sparse-2024#program).
+- <time>2024.05</time>
+  Our [SIGMOD paper](/papers/freejoin) unifying traditional hash joins 
+  with worst-case optimal joins was selected as a SIGMOD Record Research Highlight.
 - <time>2024.01</time>
   I've started as an Assistant Professor position at [EECS at UC Berkeley](https://eecs.berkeley.edu/)!
 - <time>2023.04</time>
   Our [work connecting egg to Datalog](/papers/egglog) 
   will appear at [PLDI 2023](https://pldi23.sigplan.org/).
-- <time>2023.01</time>
-  Our [paper](/papers/freejoin) unifying traditional hash joins 
-  with worst-case optimal joins will appear at [SIGMOD '23](https://2023.sigmod.org/).
 - <time>2023.01</time>
   Our [POPL 2023 paper](/papers/babble) shows how to use e-graph anti-unification to
   learn library functions from a body of code.
@@ -59,7 +64,7 @@ Check out these pages for info on my current projects:
   [OOPSLA 2021](https://2021.splashcon.org/details/splash-2021-oopsla/23/Rewrite-Rule-Inference-Using-Equality-Saturation).
 - <time>2021.09</time>
   Our paper [connecting e-matching to relational databases](/papers/relational-ematching)
-  was (conditionally) accepted to [POPL 2022](https://popl22.sigplan.org/).
+  was accepted to [POPL 2022](https://popl22.sigplan.org/).
 - <time>2020.10</time>
   Our [paper](/papers/egg) on `egg` will appear at [POPL 2021](https://popl21.sigplan.org/)
   as a _Distinguished Paper_!  \\

@@ -1,9 +1,12 @@
-- number: CS294-260
+- number: CS 265
+  when: Fall 2024
+  title: Compiler Optimization and Code Generation
+- number: CS 294-260
   when: Spring 2024
   title: Declarative Program Analysis and Optimization
   url: https://inst.eecs.berkeley.edu/~cs294-260/sp24/
-- number: CSE 351
-  when: Winter 2019
-  url: https://courses.cs.washington.edu/courses/cse351/19wi/
-  title: The Hardware/Software Interface
-  note: University of Washington, co-taught with <a href="https://homes.cs.washington.edu/~luisceze/" class="person">Luis Ceze</a>
+# - number: CSE 351
+#   when: Winter 2019
+#   url: https://courses.cs.washington.edu/courses/cse351/19wi/
+#   title: The Hardware/Software Interface
+#   note: University of Washington, co-taught with <a href="https://homes.cs.washington.edu/~luisceze/" class="person">Luis Ceze</a>
