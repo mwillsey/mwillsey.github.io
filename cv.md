@@ -78,7 +78,7 @@ li.old ~ li {
 # Program Committee Service
 
 <!-- - [Foundations and Trends in Databases](https://www.nowpublishers.com/DBS), Reviewer, 2024 -->
-- [ASPLOS 2025](https://www.asplos-conference.org/asplos-2025-call-for-papers/), PC member
+- [ASPLOS 2025](https://www.asplos-conference.org/asplos2025/committee/#tpc), PC member
 - [EGRAPHS 2024](https://pldi24.sigplan.org/home/egraphs-2024) workshop at PLDI 2024, Organizer, PC Chair
 - [POPL 2024](https://popl24.sigplan.org), PC member
 - [EGRAPHS 2023](https://pldi23.sigplan.org/home/egraphs-2023) workshop at PLDI 2023, Organizer, PC Chair
