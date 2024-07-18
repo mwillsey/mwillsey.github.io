@@ -15,6 +15,8 @@ authors:
 venue: "ACM TOG"
 venue_url: "https://dl.acm.org/doi/10.1145/3508499"
 
+tag: journal
+
 links:
   arXiv: "https://arxiv.org/abs/2107.12265"
   ACM DL: "https://dl.acm.org/doi/10.1145/3508499"

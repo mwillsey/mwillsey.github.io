@@ -3,6 +3,8 @@ layout: paper
 hide: true
 title: "Extensible Semantics for Fluidics"
 
+tag: workshop
+
 authors: ["mwillsey", "jroesch"]
 venue: "OBT at POPL"
 venue_url: "https://popl18.sigplan.org/track/OBT-2018"

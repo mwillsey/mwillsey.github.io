@@ -17,6 +17,8 @@ links:
   arXiv: "https://arxiv.org/abs/2209.03398"
   slides: "https://fmcad.org/FMCAD22/presentations/06%20-%20Proofs%201/01_flatt.pdf"
 
+tag: conference
+
 bib: |
   @inproceedings{flatt2022small,
     title={Small Proofs from Congruence Closure},

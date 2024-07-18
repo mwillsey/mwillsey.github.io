@@ -6,6 +6,8 @@ type: "publication"
 authors: ["ashsteph", "mwillsey", "mcbride", "sharon", "bichlien", "cnt", "karin", "luis"]
 venue: "IEEE Micro 2020"
 
+tag: journal
+
 links:
   pdf: "/assets/2020-micro-purpledrop.pdf"
   IEEE Xplore: "https://doi.org/10.1109/MM.2020.3005615"

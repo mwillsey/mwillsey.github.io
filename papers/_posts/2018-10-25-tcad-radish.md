@@ -2,6 +2,8 @@
 layout: paper
 title: "Iterative Search for Reconfigurable Accelerator Blocks with a Compiler in the Loop"
 
+tag: journal
+
 authors: ["mwillsey", "vlee", "alvin", "ras", "luis"]
 venue: "IEEE TCAD"
 venue_url: "https://ieeexplore.ieee.org/document/8509181"

@@ -3,6 +3,8 @@ layout: paper
 title: "Relational E-Matching"
 shorttitle: relational e-matching
 
+tag: conference
+
 type: "publication"
 authors:
   - yihong

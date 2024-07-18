@@ -2,6 +2,8 @@
 layout: paper
 title: "DNA Data Storage and Hybrid Molecular–Electronic Computing"
 
+tag: [journal, invited]
+
 authors: ["dougcarmean", "luis", "georg", "callie", "karin", "mwillsey"]
 venue: "Proceedings of the IEEE"
 venue_url: "https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=8589029"

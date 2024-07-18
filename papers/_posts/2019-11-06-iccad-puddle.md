@@ -8,6 +8,8 @@ venue: "ICCAD 2019"
 venue_url: "https://iccad.com/event_details?id=283-9-B"
 note: "Invited Paper"
 
+tag: [conference, invited]
+
 links:
   pdf: "/assets/2019-iccad-puddle.pdf"
 

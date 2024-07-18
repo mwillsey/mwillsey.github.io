@@ -5,6 +5,8 @@ title: "Mega-Microfluidics"
 
 authors: [ "mwillsey", "luis" ]
 
+tag: workshop
+
 venue: "WACI at ASPLOS 2019"
 venue_url: "https://asplos-conference.org/"
 

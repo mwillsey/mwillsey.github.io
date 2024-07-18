@@ -11,7 +11,8 @@ nav: |
 
 <style>
 @media print {
-  h1 { font-size: 100% }
+  h1 { font-size: 120% }
+  h2,h3 { font-size: 100% }
   main > ul {
     font-size: 80%;
     list-style: none;
@@ -75,7 +76,16 @@ li.old ~ li {
 - Qualcomm Innovation Fellow, 2019
 - NSF Graduate Research Fellowship Honorable Mention, 2018
 
-# Program Committee Service
+# Invited Talks
+- PLDI 2024, [Programming Languages Mentoring Workshop](https://pldi24.sigplan.org/track/PLMW-PLDI-2024#program)
+- PLDI 2024, [Sparse Workshop](https://pldi24.sigplan.org/home/sparse-2024#program)
+- [Simons Institute Program on Logic and Algorithms in Database Theory and AI](https://simons.berkeley.edu/programs/logic-algorithms-database-theory-ai),
+  Nov 2023,
+  "[Datalog and Equality Saturation](https://simons.berkeley.edu/talks/max-willsey-uc-berkeley-2023-11-15)"
+
+# Service
+
+## Program Committees
 
 <!-- - [Foundations and Trends in Databases](https://www.nowpublishers.com/DBS), Reviewer, 2024 -->
 - [ASPLOS 2025](https://www.asplos-conference.org/asplos2025/committee/#tpc), PC member
@@ -86,19 +96,10 @@ li.old ~ li {
 - ICFP 2022, external reviewer
 - [EGRAPHS 2022](https://pldi22.sigplan.org/home/egraphs-2022) workshop at PLDI 2022, Organizer, PC Chair
 
-# Invited Talks
-- PLDI 2024, [Programming Languages Mentoring Workshop](https://pldi24.sigplan.org/track/PLMW-PLDI-2024#program)
-- PLDI 2024, [Sparse Workshop](https://pldi24.sigplan.org/home/sparse-2024#program)
-- [Simons Institute Program on Logic and Algorithms in Database Theory and AI](https://simons.berkeley.edu/programs/logic-algorithms-database-theory-ai),
-  Nov 2023,
-  "[Datalog and Equality Saturation](https://simons.berkeley.edu/talks/max-willsey-uc-berkeley-2023-11-15)"
-
-
-# Other Service
+## University/Department Service
 
 - [Regent's and Chancellor's Scholarship](https://financialaid.berkeley.edu/types-of-aid-at-berkeley/scholarships/regents-and-chancellors-scholarship/) Interviewer, 2024
 - Graduate Admissions Committee, 2023-24
-- [SIGPLAN-M](https://www.sigplan.org/LongTermMentoring/) mentor, 2021-present
 - {: .old} Older Entries
 - Co-organizer, CSE Pre-Application Review Service, 2020, 2021 \\
   Helped create a program to provide support and feedback on applicants' CV and statements,
@@ -107,19 +108,33 @@ li.old ~ li {
 - Member, Department chair selection committee, 2019
 - Member, PhD student application reading committee, 2018-2021
 - Co-chair, PhD student orientation, 2018
-<!-- - Co-organizer: RCR, TGIF, Pocsci -->
+
+## Professional Service
+
+- [EGRAPHS Community](https://egraphs.org/about/) Organizer, 2024
+- [SIGPLAN-M](https://www.sigplan.org/LongTermMentoring/) mentor, 2021-present
 
 <!-- <div class="pagebreak"></div> -->
 
-# Publications
+# Publications by Category
 
-<ul class="papers">
+## Journal Articles
+
 <style>
 .paper-title { font-size: 100% }
+li.paper.star { list-style-type: inherit }
 </style>
-{% for paper in site.categories.papers %}
-  {% unless paper.hide %}
-    {% include paper.html title=1 paper=paper elem="li" %}
-  {% endunless %}
+
+<ol class="papers">
+{% for paper in site.tags["journal"] reversed %}
+    {% include paper.html title=1 paper=paper elem="li" flat_authors=true %}
 {% endfor %}
-</ul>
+</ol>
+
+## Refereed Conference Papers
+
+<ol class="papers">
+{% for paper in site.tags["conference"] reversed %}
+    {% include paper.html title=1 paper=paper elem="li" flat_authors=true %}
+{% endfor %}
+</ol>

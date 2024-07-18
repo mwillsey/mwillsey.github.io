@@ -2,6 +2,8 @@
 layout: paper
 title: "Design and Implementation of Concurrent C0"
 
+tag: workshop
+
 authors: ["mwillsey", "rokhini", "fp"]
 venue: "Fourth International Workshop on Linearity"
 venue_url: "http://eptcs.web.cse.unsw.edu.au/content.cgi?LINEARITY2016"

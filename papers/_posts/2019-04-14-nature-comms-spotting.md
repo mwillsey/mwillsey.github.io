@@ -4,6 +4,8 @@ title: "High Density DNA Data Storage Library via Dehydration with Digital Micro
 
 authors: ["sharon", "ashsteph", "mwillsey", "bichlien", "cnt", "karin", "luis"]
 
+tag: journal
+
 venue: "Nature Communications"
 venue_url: "https://www.nature.com/articles/s41467-019-09517-y"
 doi: "10.1038/s41467-019-09517-y"

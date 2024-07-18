@@ -16,6 +16,8 @@ authors:
 venue: "OOPSLA 2023"
 venue_url: "https://2023.splashcon.org/details/splash-2023-oopsla/68/Equality-Saturation-Theory-Exploration-la-Carte"
 
+tag: conference
+
 links:
     ACM DL: "https://dl.acm.org/doi/10.1145/3622834"
 bib: |

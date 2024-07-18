@@ -13,6 +13,8 @@ venue: "ACM JETC"
 links:
   ACM DL: "https://dl.acm.org/doi/10.1145/3558550"
 
+tag: journal
+
 bib: |
   @article{10.1145/3558550,
     author = {Winston, Caleb and Willsey, Max and Ceze, Luis},
