@@ -77,6 +77,8 @@ li.old ~ li {
 - NSF Graduate Research Fellowship Honorable Mention, 2018
 
 # Invited Talks
+- July 2024, "Program Manipulation with E-Graphs", NVIDIA
+- July 2024, "Program Manipulation with E-Graphs", Imperial College London, Circuits and Systems Group
 - PLDI 2024, [Programming Languages Mentoring Workshop](https://pldi24.sigplan.org/track/PLMW-PLDI-2024#program)
 - PLDI 2024, [Sparse Workshop](https://pldi24.sigplan.org/home/sparse-2024#program)
 - [Simons Institute Program on Logic and Algorithms in Database Theory and AI](https://simons.berkeley.edu/programs/logic-algorithms-database-theory-ai),
