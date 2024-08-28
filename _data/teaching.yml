@@ -1,6 +1,7 @@
 - number: CS 265
   when: Fall 2024
   title: Compiler Optimization and Code Generation
+  url: https://github.com/mwillsey/cs265/tree/2024-fall
 - number: CS 294-260
   when: Spring 2024
   title: Declarative Program Analysis and Optimization
