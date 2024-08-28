@@ -42,11 +42,8 @@ Check out these pages for info on my current projects:
 
 - <time>2024.06</time>
   The third EGRAPHS workshop, [EGRAPHS 2024](https://pldi24.sigplan.org/home/egraphs-2024),
-  will take place at [PLDI 2024](https://pldi24.sigplan.org/) in Copenhagen!
-  I will also be presenting at the 
-  [Programming Languages Mentoring Workshop](https://pldi24.sigplan.org/track/PLMW-PLDI-2024#program)
-  and the
-  [Sparse Workshop](https://pldi24.sigplan.org/home/sparse-2024#program).
+  took place at [PLDI 2024](https://pldi24.sigplan.org/) in Copenhagen!
+  Check out the [program](https://pldi24.sigplan.org/home/egraphs-2024#program), which includes videos!
 - <time>2024.05</time>
   Our [SIGMOD paper](/papers/freejoin) unifying traditional hash joins 
   with worst-case optimal joins was selected as a SIGMOD Record Research Highlight.
