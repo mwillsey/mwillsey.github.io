@@ -25,7 +25,7 @@ Check out these pages for info on my current projects:
 
 - The [egg](https://egraphs-good.github.io) project uses e-graphs to 
   build new kinds of program optimizers.
-  - See also the Github pages for 
+  - See also the GitHub pages for 
     [egg](https://github.com/egraphs-good/egg)
     and [egglog](https://github.com/egraphs-good/egglog).
 - The [EGRAPHS Community](https://egraphs.org/), 
