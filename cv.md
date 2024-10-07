@@ -90,6 +90,8 @@ li.old ~ li {
 ## Program Committees
 
 <!-- - [Foundations and Trends in Databases](https://www.nowpublishers.com/DBS), Reviewer, 2024 -->
+- [POPL 2025](https://popl25.sigplan.org), External Reviewer
+- [ECOOP 2025](https://2025.ecoop.org/), PC member
 - [ASPLOS 2025](https://www.asplos-conference.org/asplos2025/committee/#tpc), PC member
 - [EGRAPHS 2024](https://pldi24.sigplan.org/home/egraphs-2024) workshop at PLDI 2024, Organizer, PC Chair
 - [POPL 2024](https://popl24.sigplan.org), PC member
