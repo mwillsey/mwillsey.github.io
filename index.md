@@ -5,7 +5,7 @@ layout: default
 
 
 <div class="contact right" markdown="1">
-<img id="max-photo" style="max-height: 300px" src="/assets/max.jpg">
+<img id="max-photo" style="max-height: 300px" src="./assets/max.jpg">
 - Assistant Professor
 - [EECS at UC Berkeley](https://eecs.berkeley.edu/)
 - Soda Hall, 725
