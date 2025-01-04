@@ -32,8 +32,6 @@ Check out these pages for info on my current projects:
   a community for e-graphs researchers consisting of a forum, 
   a workshop, and a monthly seminary series.
 
-**I am looking for students in the 2024-25 application cycle.**
-
 </section>
 
 <section markdown="1" id="news">
