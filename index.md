@@ -46,25 +46,6 @@ Check out these pages for info on my current projects:
   with worst-case optimal joins was selected as a SIGMOD Record Research Highlight.
 - <time>2024.01</time>
   I've started as an Assistant Professor position at [EECS at UC Berkeley](https://eecs.berkeley.edu/)!
-- <time>2023.04</time>
-  Our [work connecting egg to Datalog](/papers/egglog) 
-  will appear at [PLDI 2023](https://pldi23.sigplan.org/).
-- <time>2023.01</time>
-  Our [POPL 2023 paper](/papers/babble) shows how to use e-graph anti-unification to
-  learn library functions from a body of code.
-- <time>2021.10</time>
-  Our paper on [inferring rewrites using equality saturation](/papers/ruler)
-  was a _Distinguished Paper_ at 
-  [OOPSLA 2021](https://2021.splashcon.org/details/splash-2021-oopsla/23/Rewrite-Rule-Inference-Using-Equality-Saturation).
-- <time>2021.09</time>
-  Our paper [connecting e-matching to relational databases](/papers/relational-ematching)
-  was accepted to [POPL 2022](https://popl22.sigplan.org/).
-- <time>2020.10</time>
-  Our [paper](/papers/egg) on `egg` will appear at [POPL 2021](https://popl21.sigplan.org/)
-  as a _Distinguished Paper_!  \\
-  Check out the
-  [5 min](https://youtu.be/ap29SzDAzP0) or
-  [30 min](https://youtu.be/LKELTEOFY-s) video talks.
 {: .time-list}
 
 </section>
