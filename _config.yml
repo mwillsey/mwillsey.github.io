@@ -16,3 +16,5 @@ future: true
 exclude:
   - .vscode/
   - .github/
+  - Makefile
+  - vendor

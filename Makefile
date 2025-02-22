@@ -3,15 +3,18 @@
 # the :z is necessary on SELinux systems like Fedora
 # CONTAINER = podman run --network slirp4netns:port_handler=slirp4netns -it --rm -v "${PWD}":/usr/src/app:z -p "${PORT}:${PORT}" starefossen/github-pages
 # CONTAINER = podman run --network=host -it --rm -v "${PWD}":/usr/src/app:z -p "${PORT}:${PORT}" starefossen/github-pages
-CONTAINER = podman run --network=host -it --rm -w "${PWD}" -v "${PWD}":"${PWD}":z -p "${PORT}:${PORT}" starefossen/github-pages
+# CONTAINER = podman run --network=host -it --rm -w "${PWD}" -v "${PWD}":"${PWD}":z -p "${PORT}:${PORT}" starefossen/github-pages
 
 PORT ?= 4000
-JEKYLL ?= ${CONTAINER} jekyll
+JEKYLL ?= bundle exec jekyll
 
-build:
-	$(JEKYLL) build
+install:
+	bundle install --path vendor/bundle
 
-serve:
+build: install
+	$(jekyll) build
+
+serve: install
 	$(JEKYLL) serve --livereload --port $(PORT) --baseurl '/'
 
 clean:

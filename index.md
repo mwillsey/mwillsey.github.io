@@ -38,6 +38,9 @@ Check out these pages for info on my current projects:
 
 ## News
 
+- <time>2025.02</time>
+  Our [POPL 2021 paper](/papers/egg) on the egg project was selected as a
+  [SIGPLAN Research Highlight](https://www.sigplan.org/Highlights/Papers/)!
 - <time>2024.12</time>
   [EGRAPHS 2025](https://pldi25.sigplan.org/home/egraphs-2025),
   will take place at [PLDI 2025](https://pldi25.sigplan.org/) in Seoul!
