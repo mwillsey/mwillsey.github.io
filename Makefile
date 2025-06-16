@@ -19,3 +19,17 @@ serve: install
 
 clean:
 	rm -rf _site/
+
+new-post = blog/_posts/$(shell date '+%Y-%m-%d')-new-post.md
+$(new-post):
+	@echo "Creating a new blog post..."
+	@echo "---" >> $@
+	@echo "title: A Title" >> $@
+	@echo "shorttitle: short title for tab title" >> $@
+	@echo "layout: blog" >> $@
+	@echo "---" >> $@
+	@echo "" >> $@
+
+.PHONY: new-blog-post
+new-blog-post: $(new-post)
+

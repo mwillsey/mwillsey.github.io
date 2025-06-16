@@ -11,12 +11,11 @@ programming language with the stated goal of "empowering everyone to build
 reliable and efficient software."
 I'm a big fan, and so are others.
 I think Rust gets a lot of things right on the tooling and language
-side that make it fun to program in.
-<aside markdown="1">
-  Rust has been the
-  [most loved](https://insights.stackoverflow.com/survey/2019#most-loved-dreaded-and-wanted)
-  language on StackOverflow for four years running.
-</aside>
+side that make it fun[^1] to program in.
+[^1]:
+    Rust has been the
+    [most loved](https://insights.stackoverflow.com/survey/2019#most-loved-dreaded-and-wanted)
+    language on StackOverflow for four years running.
 
 There are a ton of cool Rust libraries out there,
 and if you want to use any them, you'll have to at least learn a bit of it.
@@ -158,10 +157,10 @@ error[E0072]: recursive type `Expr` has infinite size
   | ^^^^^^^^^ recursive type has infinite size
 2 |     Num(i32),
 3 |     Add(Expr, Expr),
-  |         ----  ---- recursive without indirection
-  |         |
-  |         recursive without indirection
-  |
+  | ----  ---- recursive without indirection |
+  |------------------------------------------|
+  | recursive without indirection            |
+  |                                          |
   = help: insert indirection (e.g., a `Box`, `Rc`, or `&`)
           at some point to make `Expr` representable
 ```
@@ -211,8 +210,8 @@ error[E0382]: use of moved value: `*r`
 15 |             let i2 = eval(*r);
    |                           -- value moved here
 16 |             let _  = eval(*r);
-   |                           ^^ value used here after move
-   |
+   | ^^ value used here after move |
+   |-------------------------------|
    = note: move occurs because `*r` has type `Expr`, which does not implement the `Copy` trait
 ```
 
