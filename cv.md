@@ -90,6 +90,7 @@ li.old ~ li {
 ## Program Committees
 
 <!-- - [Foundations and Trends in Databases](https://www.nowpublishers.com/DBS), Reviewer, 2024 -->
+- [OOPSLA 2026](https://2026.splashcon.org/), PC member
 - [PLDI 2025](https://pldi25.sigplan.org), PC member
 - [POPL 2025](https://popl25.sigplan.org), External Reviewer
 - [ECOOP 2025](https://2025.ecoop.org/), PC member
