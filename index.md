@@ -34,6 +34,18 @@ Check out these pages for info on my current projects:
 
 </section>
 
+<section markdown="1" id="people">
+## People
+
+I'm fortunate to work with great collaborators and students, including:
+
+- {% include person.html key="russel" %} (PhD student)
+- {% include person.html key="sarahmorin" %} (PhD student)
+- {% include person.html key="tylerhou" %} (Undergrad)
+- {% include person.html key="rntz" %} (Postdoc)
+
+</section>
+
 <section markdown="1" id="news">
 
 ## News
@@ -63,7 +75,11 @@ Check out these pages for info on my current projects:
 {% for course in site.data.teaching %}
   <li> 
     <time>{{ course.when }}</time>
-    <a href="{{ course.url }}">{{ course.number }}</a>: {{ course.title }} 
+    {% if course.url %}
+      <a href="{{ course.url }}">{{ course.number }}</a>: {{ course.title }}
+    {% else %}
+      {{ course.number }}: {{ course.title }}
+    {% endif %}
     {% if course.note %} <br> {{ course.note }} {% endif %}
   </li>
 {% endfor %}
