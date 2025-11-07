@@ -1,6 +1,7 @@
 - number: CS 263
   when: Spring 2026
-  title: Design of Programming Languages
+  title: Reasoning About Programs
+  url: https://github.com/mwillsey/cs263/tree/2026-spring
 - number: CS 164
   when: Spring 2025
   title: Programming Languages and Compilers
