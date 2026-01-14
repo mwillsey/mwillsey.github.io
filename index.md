@@ -62,6 +62,9 @@ I'm fortunate to work with great collaborators and students, including:
   will take place at [PLDI 2026](https://pldi26.sigplan.org/) in Boulder, Colorado!
 - <time>2026.01</time>
   I co-organized a [Dagstuhl Seminar](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/26022) on the use of e-graphs in compilation.
+- <time>2025.05</time>
+  I was awarded a [Google Research Scholar Award](https://research.google/programs-and-events/research-scholar-program/recipients/)
+  for "E-Graphs for Program Optimization".
 - <time>2025.02</time>
   Our [POPL 2021 paper](/papers/egg) on the egg project was selected as a
   [SIGPLAN Research Highlight](https://www.sigplan.org/Highlights/Papers/)!

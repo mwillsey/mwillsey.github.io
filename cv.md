@@ -116,6 +116,10 @@ li { margin-bottom: 0.8em }
 - [EGRAPHS Community](https://egraphs.org/about/) Organizer, 2024
 - [SIGPLAN-M](https://www.sigplan.org/LongTermMentoring/) mentor, 2021-present
 
+# Awards and Funding
+
+- [Google Research Scholar Award](https://research.google/programs-and-events/research-scholar-program/recipients/), 2025, "E-Graphs for Program Optimization"
+
 <!-- <div class="pagebreak"></div> -->
 
 # Publications by Category
