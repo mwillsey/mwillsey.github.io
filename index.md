@@ -57,8 +57,8 @@ I'm fortunate to work with great collaborators and students, including:
 
 ## News
 
-- <time>2025.03</time>
-  I am co-organizing a [Dagstuhl Seminar](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/26022) on the use of e-graphs in compilation.
+- <time>2026.01</time>
+  I co-organized a [Dagstuhl Seminar](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/26022) on the use of e-graphs in compilation.
 - <time>2025.02</time>
   Our [POPL 2021 paper](/papers/egg) on the egg project was selected as a
   [SIGPLAN Research Highlight](https://www.sigplan.org/Highlights/Papers/)!
