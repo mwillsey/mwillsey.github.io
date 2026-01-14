@@ -58,18 +58,16 @@ I'm fortunate to work with great collaborators and students, including:
 ## News
 
 - <time>2026.01</time>
+  [EGRAPHS 2026](https://pldi26.sigplan.org/home/egraphs-2026)
+  will take place at [PLDI 2026](https://pldi26.sigplan.org/) in Boulder, Colorado!
+- <time>2026.01</time>
   I co-organized a [Dagstuhl Seminar](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/26022) on the use of e-graphs in compilation.
 - <time>2025.02</time>
   Our [POPL 2021 paper](/papers/egg) on the egg project was selected as a
   [SIGPLAN Research Highlight](https://www.sigplan.org/Highlights/Papers/)!
-- <time>2024.12</time>
-  [EGRAPHS 2025](https://pldi25.sigplan.org/home/egraphs-2025),
-  will take place at [PLDI 2025](https://pldi25.sigplan.org/) in Seoul!
 - <time>2024.05</time>
   Our [SIGMOD paper](/papers/freejoin) unifying traditional hash joins 
   with worst-case optimal joins was selected as a SIGMOD Record Research Highlight.
-- <time>2024.01</time>
-  I've started as an Assistant Professor position at [EECS at UC Berkeley](https://eecs.berkeley.edu/)!
 {: .time-list}
 
 </section>

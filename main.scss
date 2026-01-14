@@ -232,6 +232,11 @@ figure {
     }
 }
 
+
+// hide anything marked old and anything after it
+li.old { display: none }
+li.old ~ li { display: none; }
+
 footer {
     color: var(--dim);
     font-size: 70%;

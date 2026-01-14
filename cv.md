@@ -22,11 +22,6 @@ nav: |
   a * { color: black !important }
 }
 li { margin-bottom: 0.8em }
-
-li.old { display: none }
-li.old ~ li {
-  display: none;
-}
 </style>
 
 
@@ -89,7 +84,6 @@ li.old ~ li {
 
 ## Program Committees
 
-<!-- - [Foundations and Trends in Databases](https://www.nowpublishers.com/DBS), Reviewer, 2024 -->
 - [OOPSLA 2026](https://2026.splashcon.org/), PC member
 - [PLDI 2025](https://pldi25.sigplan.org), PC member
 - [POPL 2025](https://popl25.sigplan.org), External Reviewer
@@ -117,6 +111,8 @@ li.old ~ li {
 
 ## Professional Service
 
+- [Dagstuhl Seminar 26022](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/26022), Organizer
+- PLMW @ SPLASH 2026, Co-organizer
 - [EGRAPHS Community](https://egraphs.org/about/) Organizer, 2024
 - [SIGPLAN-M](https://www.sigplan.org/LongTermMentoring/) mentor, 2021-present
 
