@@ -25,21 +25,18 @@ li { margin-bottom: 0.8em }
 </style>
 
 
-# Experience
+# Positions
 
-- Assistant Professor \\
-  University of California, Berkeley, 2024--present 
-- Postdoctoral Researcher \\
-  University of Washington, 2021--2023 \\
-  <!-- Led and participated in research projects, published papers, mentored a diverse range of undergraduate students -->
+- Assistant Professor, University of California, Berkeley, 2024--present 
+- Postdoctoral Researcher, University of Washington, 2021--2023
 
 # Education
 
-- University of Washington, PhD 2021 \\
-  _Thesis:_ [Fast and Flexible Equality Saturation](https://www.mwillsey.com/thesis/thesis.pdf)
+- University of Washington, PhD 2021 
+  <!-- _Thesis:_ [Fast and Flexible Equality Saturation](https://www.mwillsey.com/thesis/thesis.pdf) -->
   <!-- _Project page_: [`egraphs-good.github.io`](https://egraphs-good.github.io) -->
-- Carnegie Mellon University, BS 2016 \\
-  _Thesis:_ [Design and Implementation of Concurrent C0](https://www.mwillsey.com/papers/thesis-cc0)
+- Carnegie Mellon University, BS 2016 
+  <!-- _Thesis:_ [Design and Implementation of Concurrent C0](https://www.mwillsey.com/papers/thesis-cc0) -->
 
 <!-- - Research Intern \\
   OctoML, Summer 2020 \\
@@ -51,7 +48,7 @@ li { margin-bottom: 0.8em }
 {% for course in site.data.teaching %}
   <li>
     {% include link.html url=course.url text=course.number %}: {{ course.title }}
-    <br> {{ course.when }}
+    ({{ course.when }})
     {% if course.note %} <br> {{ course.note }} {% endif %}
   </li>
 {% endfor %}
@@ -71,35 +68,32 @@ li { margin-bottom: 0.8em }
 - Qualcomm Innovation Fellow, 2019
 - NSF Graduate Research Fellowship Honorable Mention, 2018
 
-# Invited Talks
+<!-- # Invited Talks
 - July 2024, "Program Manipulation with E-Graphs", NVIDIA
 - July 2024, "Program Manipulation with E-Graphs", Imperial College London, Circuits and Systems Group
 - PLDI 2024, [Programming Languages Mentoring Workshop](https://pldi24.sigplan.org/track/PLMW-PLDI-2024#program)
 - PLDI 2024, [Sparse Workshop](https://pldi24.sigplan.org/home/sparse-2024#program)
 - [Simons Institute Program on Logic and Algorithms in Database Theory and AI](https://simons.berkeley.edu/programs/logic-algorithms-database-theory-ai),
   Nov 2023,
-  "[Datalog and Equality Saturation](https://simons.berkeley.edu/talks/max-willsey-uc-berkeley-2023-11-15)"
+  "[Datalog and Equality Saturation](https://simons.berkeley.edu/talks/max-willsey-uc-berkeley-2023-11-15)" -->
 
 # Service
 
 ## Program Committees
 
-- [OOPSLA 2026](https://2026.splashcon.org/), PC member
-- [PLDI 2025](https://pldi25.sigplan.org), PC member
-- [POPL 2025](https://popl25.sigplan.org), External Reviewer
-- [ECOOP 2025](https://2025.ecoop.org/), PC member
-- [ASPLOS 2025](https://www.asplos-conference.org/asplos2025/committee/#tpc), PC member
-- [EGRAPHS 2024](https://pldi24.sigplan.org/home/egraphs-2024) workshop at PLDI 2024, Organizer, PC Chair
-- [POPL 2024](https://popl24.sigplan.org), PC member
-- [EGRAPHS 2023](https://pldi23.sigplan.org/home/egraphs-2023) workshop at PLDI 2023, Organizer, PC Chair
-- [PLDI 2023 SRC](https://pldi23.sigplan.org/track/pldi-2023-src), PC member and judge
-- ICFP 2022, external reviewer
-- [EGRAPHS 2022](https://pldi22.sigplan.org/home/egraphs-2022) workshop at PLDI 2022, Organizer, PC Chair
+- [EGRAPHS Workshop](https://egraphs.org/workshop/) Organizer, PC Chair, 2022-2026
+- PC Member:
+  [OOPSLA 2026](https://2026.splashcon.org/),
+  [PLDI 2025](https://pldi25.sigplan.org),
+  [ECOOP 2025](https://2025.ecoop.org/),
+  [ASPLOS 2025](https://www.asplos-conference.org/asplos2025/committee/#tpc),
+  [POPL 2024](https://popl24.sigplan.org)
+<!-- - [PLDI 2023 SRC](https://pldi23.sigplan.org/track/pldi-2023-src), PC member and judge -->
 
 ## University/Department Service
 
 - [Regent's and Chancellor's Scholarship](https://financialaid.berkeley.edu/types-of-aid-at-berkeley/scholarships/regents-and-chancellors-scholarship/) Interviewer, 2024
-- Graduate Admissions Committee, 2023-24
+- Graduate Admissions Committee, 2023-26
 - {: .old} Older Entries
 - Co-organizer, CSE Pre-Application Review Service, 2020, 2021 \\
   Helped create a program to provide support and feedback on applicants' CV and statements,
@@ -113,7 +107,7 @@ li { margin-bottom: 0.8em }
 
 - [Dagstuhl Seminar 26022](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/26022), Organizer
 - PLMW @ SPLASH 2026, Co-organizer
-- [EGRAPHS Community](https://egraphs.org/about/) Organizer, 2024
+- [EGRAPHS Community](https://egraphs.org/about/) Organizer, 2024-present
 - [SIGPLAN-M](https://www.sigplan.org/LongTermMentoring/) mentor, 2021-present
 
 # Awards and Funding
