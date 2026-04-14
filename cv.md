@@ -83,6 +83,7 @@ li { margin-bottom: 0.8em }
 
 - [EGRAPHS Workshop](https://egraphs.org/workshop/) Organizer, PC Chair, 2022-2026
 - PC Member:
+  [miniKanren 2026](https://icfp26.sigplan.org/home/minikanren-2026),
   [OOPSLA 2026](https://2026.splashcon.org/),
   [PLDI 2025](https://pldi25.sigplan.org),
   [ECOOP 2025](https://2025.ecoop.org/),
