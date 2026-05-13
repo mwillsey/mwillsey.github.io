@@ -1,3 +1,6 @@
+- number: CS 164
+  when: Fall 2026
+  title: Programming Languages and Compilers
 - number: CS 263
   when: Spring 2026
   title: Reasoning About Programs
