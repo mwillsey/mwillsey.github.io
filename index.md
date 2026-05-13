@@ -32,12 +32,12 @@ Check out these pages for info on my current projects:
   a community for e-graphs researchers consisting of a forum, 
   a workshop, and a monthly seminary series.
 
-**I am recruiting PhD students this year**
+<!-- **I am recruiting PhD students this year** -->
 
-I am looking for students with strengths 
+<!-- I am looking for students with strengths 
  in some subset of compilers, databases, e-graphs, SMT solvers, theorem proving, and logic programming.
 You definitely don't have to have mastery of all those things, 
- but there's a lot of fun work to do in the intersection.
+ but there's a lot of fun work to do in the intersection. -->
 
 </section>
 
