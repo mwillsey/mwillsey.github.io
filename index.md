@@ -57,6 +57,10 @@ I'm fortunate to work with great collaborators and students, including:
 
 ## News
 
+- <time>2026.04</time>
+  We have two new papers accepted to PLDI 2026!
+  "[Navigating AND–OR Graph Modifications to Debug Failing Proof Search](/papers/navigating-and-or)"
+  and "[Optimism in Equality Saturation](/papers/optimism-eqsat)"
 - <time>2026.01</time>
   [EGRAPHS 2026](https://pldi26.sigplan.org/home/egraphs-2026)
   will take place at [PLDI 2026](https://pldi26.sigplan.org/) in Boulder, Colorado!
