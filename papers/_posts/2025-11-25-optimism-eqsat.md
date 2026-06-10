@@ -12,6 +12,7 @@ venue_url: "https://pldi26.sigplan.org/"
 
 links:
   arXiv: "https://arxiv.org/abs/2511.20782"
+  ACM DL: "https://dl.acm.org/doi/10.1145/3808302"
 
 tag: conference
 
@@ -19,8 +20,19 @@ bib: |
   @article{optimism-eqsat,
     author = {Arbore, Russel and Cheung, Alvin and Willsey, Max},
     title = {Optimism in Equality Saturation},
-    year = {2025},
-    journal = {arXiv preprint arXiv:2511.20782},
+    year = {2026},
+    issue_date = {June 2026},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    volume = {10},
+    number = {PLDI},
+    url = {https://doi.org/10.1145/3808302},
+    doi = {10.1145/3808302},
+    journal = {Proc. ACM Program. Lang.},
+    month = jun,
+    articleno = {224},
+    numpages = {24},
+    keywords = {Abstract Interpretation, Equality Saturation, Static Single Assignment (SSA)}
   }
 ---
 

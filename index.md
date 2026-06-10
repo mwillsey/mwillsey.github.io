@@ -46,10 +46,13 @@ You definitely don't have to have mastery of all those things,
 
 I'm fortunate to work with great collaborators and students, including:
 
-- {% include person.html key="russel" %} (PhD student)
-- {% include person.html key="sarahmorin" %} (PhD student)
-- {% include person.html key="tylerhou" %} (Undergrad)
-- {% include person.html key="rntz" %} (Postdoc)
+- {% include person.html key="russel" %}, PhD student
+- {% include person.html key="sarahmorin" %}, PhD student
+- {% include person.html key="rntz" %}, Postdoc
+
+And to have worked with great people who've gone on to other things:
+- {% include person.html key="tylerhou" %}, ugrad UCB 2026 and [Hertz Fellow](https://www.hertzfoundation.org/people/tyler-hou/) → Princeton PhD
+
 
 </section>
 
