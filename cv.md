@@ -60,7 +60,7 @@ li { margin-bottom: 0.8em }
 - [MIT PL Review 2024](https://plr.csail.mit.edu/) Selection, 
   "[Better Together: Unifying Datalog and Equality Saturation](/papers/egglog)"
 - Distinguished Paper, OOPSLA 2021, "[Rewrite Rule Inference Using Equality Saturation](/papers/ruler)"
-- Distinguished Paper, POPL 2021, "[egg: Fast and extensible equality saturation](/papers/egg)"
+- Distinguished Paper, SIGPLAN and CACM Research Highlight, POPL 2021, "[egg: Fast and extensible equality saturation](/papers/egg)"
 - {: .old} Older Entries
 - Invited Post, SIGPLAN Blog 2021, "[Fast and Extensible Equality Saturation with egg](https://blog.sigplan.org/2021/04/06/equality-saturation-with-egg/)"
 - Invited Speaker, ICCAD 2019, "Scaling Microfluidics to Complex, Dynamic Protocols"
@@ -107,11 +107,11 @@ li { margin-bottom: 0.8em }
 ## Professional Service
 
 - [Dagstuhl Seminar 26022](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/26022), Organizer
-- PLMW @ SPLASH 2026, Co-organizer
+- [PLMW @ SPLASH 2026](https://conf.researchr.org/track/splash-issta-2026/splash-issta-2026-plmw---splash-issta-26), Co-organizer
 - [EGRAPHS Community](https://egraphs.org/about/) Organizer, 2024-present
 - [SIGPLAN-M](https://www.sigplan.org/LongTermMentoring/) mentor, 2021-present
 
-# Awards and Funding
+# Funding Awards
 
 - [Google Research Scholar Award](https://research.google/programs-and-events/research-scholar-program/recipients/), 2025, "E-Graphs for Program Optimization"
 
