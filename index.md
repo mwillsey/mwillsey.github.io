@@ -8,7 +8,7 @@ layout: default
 <img id="max-photo" style="max-height: 300px" src="./assets/max.jpg">
 - Assistant Professor
 - [EECS at UC Berkeley](https://eecs.berkeley.edu/)
-- Soda Hall, 725
+- The Gateway, 2435
 - [mwillsey@eecs.berkeley.edu](mailto:mwillsey@eecs.berkeley.edu)
 </div>
 
