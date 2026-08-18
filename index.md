@@ -7,7 +7,7 @@ layout: default
 <div class="contact right" markdown="1">
 <img id="max-photo" style="max-height: 300px" src="./assets/max.jpg">
 - Assistant Professor
-- [EECS at UC Berkeley](https://eecs.berkeley.edu/)
+- [UC Berkeley EECS](https://eecs.berkeley.edu/)
 - [Gateway](https://cdss.berkeley.edu/facilities/gateway), 2435
 - [mwillsey@eecs.berkeley.edu](mailto:mwillsey@eecs.berkeley.edu)
 </div>
