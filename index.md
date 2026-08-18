@@ -47,6 +47,7 @@ You definitely don't have to have mastery of all those things,
 I'm fortunate to work with great collaborators and students, including:
 
 - {% include person.html key="russel" %}, PhD student
+- {% include person.html key="craigliu" %}, PhD student
 - {% include person.html key="sarahmorin" %}, PhD student
 - {% include person.html key="rntz" %}, Postdoc
 
@@ -61,7 +62,7 @@ And to have worked with great people who've gone on to other things:
 ## News
 
 - <time>2026.08</time>
-  The `egg` paper
+  The egg paper
   was selected as a [CACM Research Highlight](https://cacm.acm.org/research-highlights/egg-fast-and-extensible-equality-saturation/)
   (accompanied by a great [technical perspective](https://cacm.acm.org/research-highlights/technical-perspective-egg-ridiculously-fast-and-extensible-equality-saturation/) 
   from Nadia Polikarpova).
