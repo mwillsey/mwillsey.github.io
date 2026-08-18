@@ -60,6 +60,11 @@ And to have worked with great people who've gone on to other things:
 
 ## News
 
+- <time>2026.08</time>
+  The `egg` paper
+  was selected as a [CACM Research Highlight](https://cacm.acm.org/research-highlights/egg-fast-and-extensible-equality-saturation/)
+  (accompanied by a great [technical perspective](https://cacm.acm.org/research-highlights/technical-perspective-egg-ridiculously-fast-and-extensible-equality-saturation/) 
+  from Nadia Polikarpova).
 - <time>2026.04</time>
   We have two new papers accepted to PLDI 2026!
   "[Navigating AND–OR Graph Modifications to Debug Failing Proof Search](/papers/navigating-and-or)"
