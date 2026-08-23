@@ -1,6 +1,7 @@
 - number: CS 164
   when: Fall 2026
   title: Programming Languages and Compilers
+  url: "https://inst.eecs.berkeley.edu/~cs164/fa26/"
 - number: CS 263
   when: Spring 2026
   title: Reasoning About Programs
