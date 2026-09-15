@@ -20,6 +20,7 @@ tag: conference
 
 links:
     ACM DL: "https://dl.acm.org/doi/10.1145/3622834"
+    arXiv: "https://arxiv.org/pdf/2609.14527"
 bib: |
     @article{10.1145/3622834,
         author = {
