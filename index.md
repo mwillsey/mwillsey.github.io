@@ -61,6 +61,8 @@ And to have worked with great people who've gone on to other things:
 
 ## News
 
+- <time>2026.10</time>
+  I am co-organizing [PLMW @ SPLASH 2026](https://conf.researchr.org/track/splash-issta-2026/splash-issta-2026-plmw---splash-issta-26) which will be held here in Oakland.
 - <time>2026.08</time>
   The egg paper
   was selected as a [CACM Research Highlight](https://cacm.acm.org/research-highlights/egg-fast-and-extensible-equality-saturation/)

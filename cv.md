@@ -106,8 +106,8 @@ li { margin-bottom: 0.8em }
 
 ## Professional Service
 
-- [Dagstuhl Seminar 26022](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/26022), Organizer
 - [PLMW @ SPLASH 2026](https://conf.researchr.org/track/splash-issta-2026/splash-issta-2026-plmw---splash-issta-26), Co-organizer
+- [Dagstuhl Seminar 26022](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/26022), Organizer
 - [EGRAPHS Community](https://egraphs.org/about/) Organizer, 2024-present
 - [SIGPLAN-M](https://www.sigplan.org/LongTermMentoring/) mentor, 2021-present
 
